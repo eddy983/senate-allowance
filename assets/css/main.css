@@ -339,8 +339,8 @@ body {
     border: 0.11765rem solid #EB5757;
     background-color: white;
     border-radius: 50%;
-    width: 0.47059rem;
-    height: 0.47059rem;
+    width: 0.52941rem;
+    height: 0.52941rem;
     cursor: pointer; }
   .range-slider ::-webkit-runnable-track {
     -webkit-appearance: none;
@@ -376,8 +376,8 @@ body {
     background: #d8e0f3;
     display: inline-flex;
     justify-content: center;
-    width: 0.88235rem;
-    height: 0.88235rem;
+    width: 1.05882rem;
+    height: 1.05882rem;
     border-radius: 50%;
     position: relative;
     cursor: pointer; }
