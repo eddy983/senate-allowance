@@ -1,0 +1,32 @@
+.u-text-align { text-align: center; }
+
+.u-sub-margin { 
+  margin-top: -5rem;
+
+  @include respond(mic-l) {
+    margin-top: -4rem;
+  }
+
+  @include respond(nex-9) {
+    margin-top: -2rem;
+  }
+
+  @include respond(l-phone) {
+    margin-top: -2rem;
+  }
+
+  @include respond(m-phone) {
+    margin-top: -1rem;
+  }
+
+  @include respond(s-phone) {
+    margin-top: 0rem;
+  }
+  
+ }
+
+.u-card-cap-margin { margin-top: -0.5rem; }
+
+.u-info-main { margin-bottom: 1.5rem; }
+
+.u-info-sub { margin-bottom: 1rem; }

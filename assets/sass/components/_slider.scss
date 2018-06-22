@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Zilla+Slab:300,400,500,600,700");
+
+$red: #EB5757;
+$light-blue: #d8e0f3;
+$light-gray: #eee;
+
+@function remify($values) {
+  $rems: ();
+
+  @each $value in $values {
+    @if $value == 0 or $value == auto {
+      $rems: append($rems, $value);
+    } @else {
+      $rems: append($rems,  ($value / 17) + rem);
+    }
+  }
+
+  @return $rems;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.range-slider {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 100%;
+
+  input[type="range"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: $light-blue;
+    width: calc(100% - 1px);
+    height: remify(5);
+    border-radius: remify(5);
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+
+    &:focus {
+      outline: 0;
+      border-color: lighten($red, 35%);
+
+      &::-webkit-slider-thumb {
+        background-color: darken($red, 10%);
+      }
+
+      &::-moz-range-thumb {
+        background-color: darken($red, 10%);
+      }
+
+      &::-ms-thumb {
+        background-color: darken($red, 10%);
+      }
+    }
+  }
+
+  ::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: remify(13) solid $red;
+    background-color: white;
+    border-radius: 50%;
+    width: remify(36);
+    height: remify(36);
+    box-shadow: remify(0 0 0 2) white;
+    cursor: pointer;
+  }
+
+  ::-moz-range-thumb {
+    appearance: none;
+    -moz-appearance: none;
+    border: remify(13) solid $red;
+    background-color: white;
+    border-radius: 50%;
+    width: remify(16);
+    height: remify(16);
+    box-shadow: remify(0 0 0 2) white;
+    cursor: pointer;
+  }
+
+  ::-ms-thumb {
+    border: remify(2) solid $red;
+    background-color: white;
+    border-radius: 50%;
+    width: remify(8);
+    height: remify(8);
+    cursor: pointer;
+  }
+
+  ::-webkit-runnable-track {
+    -webkit-appearance: none;
+    width: 0;
+  }
+
+  ::-moz-range-track {
+    -moz-appearance: none;
+    width: 0; // Firefox needs an explicit width for this to not show.
+  }
+
+  ::-ms-track {
+    border-color: transparent;
+    color: transparent;
+    background-color: transparent;
+  }
+
+  ::-ms-fill-upper {
+    background: transparent;
+  }
+
+  ::-ms-fill-lower {
+    background: $red;
+    margin-left: remify(-2); // Fixes a gap in rendering in IE 11.
+    height: remify(20);
+    border-color: $red;
+    border-width: remify(20 0);
+  }
+
+  ::-ms-tooltip {
+    display: none;
+  }
+}
+
+.range-slider-ticks {
+  position: absolute;
+  top: remify(-5);
+  z-index: 2;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 9px;
+
+  &__tick {
+    background: $light-blue;
+    display: inline-flex;
+    justify-content: center;
+    width: remify(15);
+    height: remify(15);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
+
+  &__label,
+  &__label1,
+  &__label2 {
+    font-size: remify(23);
+    padding-top: remify(28);
+
+    &.is-selected {
+      font-weight: 700;
+      color: $red;
+    }
+  }
+}

@@ -1,0 +1,172 @@
+.header {
+  //margin-top: 4rem;
+
+  &__box {
+    height: 48.9rem;
+    width: 100%;
+
+    &--1 {
+      background-color: $greenish-bg-color;
+      z-index: 1;
+      animation: appear  2s -4s both;
+      //animation: appear 4s ease-in 2s both;
+      //animation: name duration timing-function delay iteration-count direction fill-mode;
+    }
+
+    &--2 {
+      background-color: $grey-color-2;
+      z-index: 2;
+      display: none;
+    }
+
+    &__text {
+      display: block;
+
+      &--1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-24%, 330%);
+
+        @include respond(4k-desk) {
+          transform: translate(21%, 330%);
+        }
+      }
+    }
+
+    &__icon {
+      //margin-top: 3rem;
+      position: relative;
+
+      &__img {
+        height: 19.8rem;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, 6%);
+        top: 50%;
+
+        @include respond(mic-l) {
+          transform: translate(-50%, 14%);
+        }
+
+        @include respond(l-phone) {
+        transform: translate(-50%, 20%);
+        }
+
+        &--1 {
+          height: 13.8rem;
+          transform: translate(-204%, 110%);
+
+          @include respond(4k-desk) {
+            transform: translate(-124%, 110%);
+          }
+
+          @include respond(s-phone) {
+            height: 10.8rem;
+          }
+
+        }
+
+        &--2 {
+          height: 8.8rem;
+          transform: translate(-222%, 68%);
+
+          @include respond(4k-desk) {
+            transform: translate(-340%, 68%);
+          }
+
+          @include respond(nex-9) {
+            height: 7.8rem;
+          }
+
+          @include respond(l-phone) {
+            transform: translate(-197%, 68%);
+          }
+
+          @include respond(m-phone) {
+            height: 7.8rem;
+          }
+
+          @include respond(s-phone) {
+            height: 6.8rem;
+          }
+        }
+
+        &--3 {
+          height: 8.8rem;
+          transform: translate(126%, 68%);
+
+          @include respond(4k-desk) {
+            transform: translate(248%, 68%);
+          }
+
+          @include respond(nex-9) {
+            height: 7.8rem;
+          }
+
+          @include respond(l-phone) {
+            transform: translate(93%, 68%);
+          }
+
+          @include respond(m-phone) {
+            height: 7.8rem;
+          }
+
+          @include respond(s-phone) {
+            height: 6.8rem;
+          }
+        }
+
+        &--4 {
+          height: 8.8rem;
+          transform: translate(-167%, 368%);
+
+          @include respond(4k-desk) {
+            transform: translate(-226%, 368%);
+          }
+
+          @include respond(nex-9) {
+            height: 7.8rem;
+          }
+
+          @include respond(l-phone) {
+            transform: translate(-156%, 368%);
+          }
+
+          @include respond(m-phone) {
+            height: 7.8rem;
+          }
+
+          @include respond(s-phone) {
+            height: 6.8rem;
+          }
+        }
+
+        &--5 {
+          height: 8.8rem;
+          transform: translate(56%, 368%);
+
+          @include respond(4k-desk) {
+            transform: translate(154%, 368%);
+          }
+
+          @include respond(nex-9) {
+            height: 7.8rem;
+          }
+
+          @include respond(l-phone) {
+            transform: translate(38%, 368%);
+          }
+
+          @include respond(m-phone) {
+            height: 7.8rem;
+          }
+
+          @include respond(s-phone) {
+            height: 6.8rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+.info {
+  margin-bottom: 4rem;
+
+  &__cancel {
+    float: right;
+    margin-top: -6.6rem;
+    width: 100%;
+
+    &__all {
+      float: right;
+    }
+
+    &__text {
+      display: inline;
+      margin-left: 0.1rem;
+    }
+  }
+
+  &__line {
+    border-bottom: 1px solid $black-color;
+    margin: 1rem 0;
+  }  
+
+  &__title {
+    margin-top: 12rem;
+  }
+}

@@ -1,0 +1,71 @@
+.btn {
+  &__game {
+    @include position;
+    background-color: $grey-light-color;
+    border: 0;
+    border-radius: 0.8rem;
+    box-shadow: 0.2rem 0.4rem 0.6rem $grey-color;
+    color: #000;
+    outline: 0;
+    padding: 1.4rem 2.6rem;
+    text-decoration: none;
+    transform: translate(382%, 0%);
+
+    @include respond(4k-desk) {
+      left: 56.7rem;
+    }
+
+    @include respond(laptop) {
+      left: 12rem;
+    }
+
+    @include respond(s-laptop) {
+      left: 7rem;
+    }
+
+    @include respond(tab-land) {
+      left: 1rem;
+    }
+
+    @include respond(f-hxd) {
+      left: -10rem;
+    }
+
+    @include respond(tab-port) {
+      left: -11rem;
+    }
+
+    @include respond(mic-l) {
+      left: -17rem;
+    }
+
+    @include respond(nex-9) {
+      left: -27rem;
+    }
+
+    @include respond(l-phone) {
+      left: -31rem;
+    }
+
+    @include respond(iphone-6-plus) {
+      left: -35rem;
+    }
+
+    @include respond(pix-2) {
+      left: -34rem;
+    }
+
+    @include respond(m-phone) {
+      left: -35rem;
+    }
+
+    @include respond(s-phone) {
+      left: -39rem;
+    }
+
+    &:hover {
+      background-color: $grey-color-2;
+      cursor: pointer;
+    }
+  }
+} 
