@@ -133,6 +133,9 @@ body {
   @media (max-width: 26.5625em) {
     .card-sub {
       font-size: 1.6rem; } }
+  @media (max-width: 26.5625em) {
+    .card-sub {
+      font-size: 1.5rem; } }
   @media (max-width: 20em) {
     .card-sub {
       font-size: 1.4rem; } }
@@ -165,7 +168,7 @@ body {
   @media (max-width: 26.5625em) {
     .card-cap {
       font-size: 1.5rem; } }
-  @media (max-width: 20em) {
+  @media (max-width: 26.5625em) {
     .card-cap {
       font-size: 1.4rem; } }
 
