@@ -58,11 +58,11 @@ body {
   font-weight: 400;
   font-size: 1.8rem;
 
-  @include respond(l-phone) {
+  @include respond(nex-9) {
     font-size: 1.6rem;
   }
 
-  @include respond(l-phone) {
+  @include respond(m-phone) {
     font-size: 1.5rem;
   }
 
@@ -109,11 +109,15 @@ body {
 .card-cap {
   font-size: 1.6rem;
 
+  @include respond(nex-9) {
+    font-size: 1.4rem;
+  }
+
   @include respond(l-phone) {
     font-size: 1.5rem;
   }
 
-  @include respond(l-phone) {
+  @include respond(m-phone) {
     font-size: 1.4rem;
   }
 }

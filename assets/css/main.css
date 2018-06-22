@@ -130,10 +130,10 @@ body {
 .card-sub {
   font-weight: 400;
   font-size: 1.8rem; }
-  @media (max-width: 26.5625em) {
+  @media (max-width: 30em) {
     .card-sub {
       font-size: 1.6rem; } }
-  @media (max-width: 26.5625em) {
+  @media (max-width: 23.4375em) {
     .card-sub {
       font-size: 1.5rem; } }
   @media (max-width: 20em) {
@@ -168,10 +168,13 @@ body {
 
 .card-cap {
   font-size: 1.6rem; }
+  @media (max-width: 30em) {
+    .card-cap {
+      font-size: 1.4rem; } }
   @media (max-width: 26.5625em) {
     .card-cap {
       font-size: 1.5rem; } }
-  @media (max-width: 26.5625em) {
+  @media (max-width: 23.4375em) {
     .card-cap {
       font-size: 1.4rem; } }
 
