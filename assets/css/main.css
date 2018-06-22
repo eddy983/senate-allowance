@@ -366,7 +366,7 @@ body {
 .range-slider-ticks {
   position: absolute;
   top: -0.29412rem;
-  z-index: 2;
+  z-index: 5;
   left: 0;
   right: 0;
   display: flex;
