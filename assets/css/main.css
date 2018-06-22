@@ -321,8 +321,8 @@ body {
     border: 0.76471rem solid #EB5757;
     background-color: white;
     border-radius: 50%;
-    width: 3.52941rem;
-    height: 3.52941rem;
+    width: 2.11765rem;
+    height: 2.11765rem;
     box-shadow: 0 0 0 0.11765rem white;
     cursor: pointer; }
   .range-slider ::-moz-range-thumb {
@@ -331,16 +331,16 @@ body {
     border: 0.76471rem solid #EB5757;
     background-color: white;
     border-radius: 50%;
-    width: 2.94118rem;
-    height: 2.94118rem;
+    width: 0.94118rem;
+    height: 0.94118rem;
     box-shadow: 0 0 0 0.11765rem white;
     cursor: pointer; }
   .range-slider ::-ms-thumb {
     border: 0.11765rem solid #EB5757;
     background-color: white;
     border-radius: 50%;
-    width: 3.52941rem;
-    height: 3.52941rem;
+    width: 0.88235rem;
+    height: 0.88235rem;
     cursor: pointer; }
   .range-slider ::-webkit-runnable-track {
     -webkit-appearance: none;
@@ -383,7 +383,7 @@ body {
     cursor: pointer; }
   .range-slider-ticks__label, .range-slider-ticks__label1, .range-slider-ticks__label2 {
     font-size: 1.35294rem;
-    padding-top: 1.70588rem; }
+    padding-top: 1.52941rem; }
     .range-slider-ticks__label.is-selected, .range-slider-ticks__label1.is-selected, .range-slider-ticks__label2.is-selected {
       font-weight: 700;
       color: #EB5757; }
