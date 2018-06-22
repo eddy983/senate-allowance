@@ -1,7 +1,8 @@
 /*
 0 - 320px: Small Phone
 320px - 375px: Medium Phone
-375x - 411px: Pixel 2 Phone
+375px - 384px: Nexus 4 Phone
+384x - 411px: Pixel 2 Phone
 411px - 414px: iphone 6/7/8 + Phone
 414px - 425px: Large Phone
 425px - 480px: Nexus 9 Phone
@@ -18,7 +19,11 @@
 $breakpoint arguement choices:
 - s-phone
 - m-phone
+- nex-4
+- pix-2
 - l-phone
+- nex-9
+- mic-l
 - tab-port
 - f-hxd
 - tab-land
@@ -125,26 +130,44 @@ body {
 .card-sub {
   font-weight: 400;
   font-size: 1.8rem; }
+  @media (max-width: 26.5625em) {
+    .card-sub {
+      font-size: 1.6rem; } }
+  @media (max-width: 20em) {
+    .card-sub {
+      font-size: 1.4rem; } }
 
 .card-main {
   color: #27AE60;
   font-weight: bold;
   font-size: 3rem;
   font-style: italic; }
+  @media (max-width: 40em) {
+    .card-main {
+      font-size: 2.8rem; } }
+  @media (max-width: 30em) {
+    .card-main {
+      font-size: 2rem; } }
   @media (max-width: 26.5625em) {
+    .card-main {
+      font-size: 2rem; } }
+  @media (max-width: 24em) {
     .card-main {
       font-size: 1.8rem; } }
   @media (max-width: 23.4375em) {
     .card-main {
       font-size: 1.5rem; } }
-  @media (max-width: 23.4375em) {
-    .card-main {
-      font-size: 1.2rem; } }
   .card-main--2 {
     color: #EB5757; }
 
 .card-cap {
   font-size: 1.6rem; }
+  @media (max-width: 26.5625em) {
+    .card-cap {
+      font-size: 1.5rem; } }
+  @media (max-width: 20em) {
+    .card-cap {
+      font-size: 1.4rem; } }
 
 .game-title {
   font-size: 2rem;
@@ -546,6 +569,14 @@ body {
       height: 13.4rem;
       padding-top: 2.8rem;
       width: 100%; }
+      @media (max-width: 26.5625em) {
+        .game__total__card {
+          height: 11.4rem;
+          padding-top: 1.8rem; } }
+      @media (max-width: 23.4375em) {
+        .game__total__card {
+          height: 9.4rem;
+          padding-top: 1.2rem; } }
   .game__title {
     margin: 3rem 0 4rem 0; }
     @media (max-width: 48em) {

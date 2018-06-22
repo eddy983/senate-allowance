@@ -16,7 +16,8 @@
 /*
 0 - 320px: Small Phone
 320px - 375px: Medium Phone
-375x - 411px: Pixel 2 Phone
+375px - 384px: Nexus 4 Phone
+384x - 411px: Pixel 2 Phone
 411px - 414px: iphone 6/7/8 + Phone
 414px - 425px: Large Phone
 425px - 480px: Nexus 9 Phone
@@ -33,7 +34,11 @@
 $breakpoint arguement choices:
 - s-phone
 - m-phone
+- nex-4
+- pix-2
 - l-phone
+- nex-9
+- mic-l
 - tab-port
 - f-hxd
 - tab-land
@@ -54,6 +59,9 @@ ORDER: Base + typography > general layout + grid > page layout > components
   }
   @if $breakpoint == m-phone {
     @media (max-width: 23.4375em) { @content }; // 375px in em
+  }
+  @if $breakpoint == nex-4 {
+    @media (max-width: 24em) { @content }; // 384px in em
   }
   @if $breakpoint == pix-2 {
     @media (max-width: 25.6875em) { @content }; // 411px in em
