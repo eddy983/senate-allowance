@@ -65,8 +65,8 @@ body {
     border: remify(13) solid $red;
     background-color: white;
     border-radius: 50%;
-    width: remify(36);
-    height: remify(36);
+    width: remify(60);
+    height: remify(60);
     box-shadow: remify(0 0 0 2) white;
     cursor: pointer;
   }
@@ -77,8 +77,8 @@ body {
     border: remify(13) solid $red;
     background-color: white;
     border-radius: 50%;
-    width: remify(16);
-    height: remify(16);
+    width: remify(50);
+    height: remify(50);
     box-shadow: remify(0 0 0 2) white;
     cursor: pointer;
   }
@@ -87,8 +87,8 @@ body {
     border: remify(2) solid $red;
     background-color: white;
     border-radius: 50%;
-    width: remify(9);
-    height: remify(9);
+    width: remify(60);
+    height: remify(60);
     cursor: pointer;
   }
 
@@ -150,7 +150,7 @@ body {
   &__label1,
   &__label2 {
     font-size: remify(23);
-    padding-top: remify(26);
+    padding-top: remify(29);
 
     &.is-selected {
       font-weight: 700;
