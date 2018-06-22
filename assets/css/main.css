@@ -383,7 +383,7 @@ body {
     cursor: pointer; }
   .range-slider-ticks__label, .range-slider-ticks__label1, .range-slider-ticks__label2 {
     font-size: 1.35294rem;
-    padding-top: 1.64706rem; }
+    padding-top: 1.52941rem; }
     .range-slider-ticks__label.is-selected, .range-slider-ticks__label1.is-selected, .range-slider-ticks__label2.is-selected {
       font-weight: 700;
       color: #EB5757; }
@@ -496,6 +496,9 @@ body {
         @media (min-width: 160em) {
           .header__box__icon__img--1 {
             transform: translate(-124%, 110%); } }
+        @media (max-width: 25.875em) {
+          .header__box__icon__img--1 {
+            height: 10.8rem; } }
         @media (max-width: 20em) {
           .header__box__icon__img--1 {
             height: 10.8rem; } }
@@ -508,9 +511,15 @@ body {
         @media (max-width: 30em) {
           .header__box__icon__img--2 {
             height: 7.8rem; } }
+        @media (max-width: 30em) {
+          .header__box__icon__img--2 {
+            height: 7.8rem; } }
         @media (max-width: 26.5625em) {
           .header__box__icon__img--2 {
             transform: translate(-197%, 68%); } }
+        @media (max-width: 25.875em) {
+          .header__box__icon__img--2 {
+            height: 6.8rem; } }
         @media (max-width: 23.4375em) {
           .header__box__icon__img--2 {
             height: 7.8rem; } }
@@ -529,6 +538,9 @@ body {
         @media (max-width: 26.5625em) {
           .header__box__icon__img--3 {
             transform: translate(93%, 68%); } }
+        @media (max-width: 25.875em) {
+          .header__box__icon__img--3 {
+            height: 6.8rem; } }
         @media (max-width: 23.4375em) {
           .header__box__icon__img--3 {
             height: 7.8rem; } }
@@ -547,6 +559,9 @@ body {
         @media (max-width: 26.5625em) {
           .header__box__icon__img--4 {
             transform: translate(-156%, 368%); } }
+        @media (max-width: 25.875em) {
+          .header__box__icon__img--4 {
+            height: 6.8rem; } }
         @media (max-width: 23.4375em) {
           .header__box__icon__img--4 {
             height: 7.8rem; } }
@@ -565,6 +580,9 @@ body {
         @media (max-width: 26.5625em) {
           .header__box__icon__img--5 {
             transform: translate(38%, 368%); } }
+        @media (max-width: 25.875em) {
+          .header__box__icon__img--5 {
+            height: 6.8rem; } }
         @media (max-width: 23.4375em) {
           .header__box__icon__img--5 {
             height: 7.8rem; } }

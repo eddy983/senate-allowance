@@ -61,6 +61,10 @@
             transform: translate(-124%, 110%);
           }
 
+          @include respond(iphone-6-plus) {
+            height: 10.8rem;
+          }
+
           @include respond(s-phone) {
             height: 10.8rem;
           }
@@ -79,8 +83,16 @@
             height: 7.8rem;
           }
 
+          @include respond(nex-9) {
+            height: 7.8rem;
+          }
+
           @include respond(l-phone) {
             transform: translate(-197%, 68%);
+          }
+
+          @include respond(iphone-6-plus) {
+            height: 6.8rem;
           }
 
           @include respond(m-phone) {
@@ -108,6 +120,10 @@
             transform: translate(93%, 68%);
           }
 
+          @include respond(iphone-6-plus) {
+            height: 6.8rem;
+          }
+
           @include respond(m-phone) {
             height: 7.8rem;
           }
@@ -133,6 +149,10 @@
             transform: translate(-156%, 368%);
           }
 
+          @include respond(iphone-6-plus) {
+            height: 6.8rem;
+          }
+
           @include respond(m-phone) {
             height: 7.8rem;
           }
@@ -156,6 +176,10 @@
 
           @include respond(l-phone) {
             transform: translate(38%, 368%);
+          }
+
+          @include respond(iphone-6-plus) {
+            height: 6.8rem;
           }
 
           @include respond(m-phone) {
