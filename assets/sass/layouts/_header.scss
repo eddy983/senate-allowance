@@ -95,13 +95,8 @@
             height: 6.8rem;
           }
 
-          @include respond(m-phone) {
-            height: 7.8rem;
-          }
 
-          @include respond(s-phone) {
-            height: 6.8rem;
-          }
+          
         }
 
         &--3 {
@@ -124,13 +119,6 @@
             height: 6.8rem;
           }
 
-          @include respond(m-phone) {
-            height: 7.8rem;
-          }
-
-          @include respond(s-phone) {
-            height: 6.8rem;
-          }
         }
 
         &--4 {
@@ -153,13 +141,6 @@
             height: 6.8rem;
           }
 
-          @include respond(m-phone) {
-            height: 7.8rem;
-          }
-
-          @include respond(s-phone) {
-            height: 6.8rem;
-          }
         }
 
         &--5 {
@@ -182,13 +163,6 @@
             height: 6.8rem;
           }
 
-          @include respond(m-phone) {
-            height: 7.8rem;
-          }
-
-          @include respond(s-phone) {
-            height: 6.8rem;
-          }
         }
       }
     }
