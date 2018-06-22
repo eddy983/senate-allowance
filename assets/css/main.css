@@ -160,6 +160,9 @@ body {
   @media (max-width: 23.4375em) {
     .card-main {
       font-size: 1.7rem; } }
+  @media (max-width: 20em) {
+    .card-main {
+      font-size: 1.5rem; } }
   .card-main--2 {
     color: #EB5757; }
 
@@ -214,6 +217,9 @@ body {
 
 .u-card-cap-margin {
   margin-top: -0.5rem; }
+  @media (max-width: 26.5625em) {
+    .u-card-cap-margin {
+      margin-top: 0; } }
 
 .u-info-main {
   margin-bottom: 1.5rem; }

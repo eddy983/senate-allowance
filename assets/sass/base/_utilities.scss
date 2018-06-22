@@ -25,7 +25,13 @@
   
  }
 
-.u-card-cap-margin { margin-top: -0.5rem; }
+.u-card-cap-margin { 
+  margin-top: -0.5rem;
+
+  @include respond(l-phone) {
+    margin-top: 0;
+  }  
+ }
 
 .u-info-main { margin-bottom: 1.5rem; }
 
