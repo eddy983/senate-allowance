@@ -3,10 +3,12 @@ const base_allowance = 12500000 //allowance used for reference calculations does
 const base_allocation = 200000000 //allowance used for reference calculations doesnt channge
 const no_of_senators = 109;
 
+
 var salary = 750000;
 var allowance = 12500000;
 var allocation = 200000000;
 var current = "";
+
 
 const createUniqueId = prefix => {
   return `${prefix}-${Math.round(Math.random() * 100000)}`;
@@ -137,7 +139,7 @@ class RangeSlider1 {
     this.input.setAttribute("aria-valuetext", ariaValueText);
 
     current= "allowance"
-    changetext(e, "display1");
+    changetext1(e, "display1");
     update(e.target.value)
 
     if (this.input.hasAttribute("labels")) {
@@ -240,7 +242,7 @@ class RangeSlider2 {
     const value = e.target.value;
     const ariaValueText = !this.labels ? value : this.labels[value];
     current= "allocation"
-    changetext(e, "display2");
+    changetext2(e, "display2");
     update(e.target.value);
     
     this.input.setAttribute("aria-valuetext", ariaValueText);
@@ -327,7 +329,21 @@ const changetext = (e, target)=>{
   message = messages[parseInt(e.target.value)/100];
   console.log(e)
   let targ = document.querySelector( `#${target}` );
-  targ.innerHTML = `${message} <span class="display-paragraph display-bold">More</span>`
+  targ.innerHTML = `${message}`
+}
+
+const changetext1 = (e, target)=>{
+  message1 = messages[parseInt(e.target.value)/100];
+  console.log(e)
+  let targ = document.querySelector( `#${target}` );
+  targ.innerHTML = `${message1}`
+}
+
+const changetext2 = (e, target)=>{
+  messages2 = messages[parseInt(e.target.value)/100];
+  console.log(e)
+  let targ = document.querySelector( `#${target}` );
+  targ.innerHTML = `${messages2}`
 }
 
 const update = (e)=>{
@@ -340,20 +356,21 @@ const update = (e)=>{
      if (current == "salary"){
       salary =  base_salary - (base_salary*((e-100)/1000))
       salary_targ.innerHTML = `N${(salary).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
-      cuts.innerHTML = `N${((base_salary*((e-100)/1000))+(base_allowance - allowance)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
+      cuts.innerHTML = `N${((base_salary*((e-100)/1000))+(base_allowance - allowance) + base_allocation - allocation).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
      }
      else if (current == "allowance"){
       allowance =  base_allowance - (base_allowance*((e-100)/1000))
       allowance_targ.innerHTML = `N${(allowance).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
-      cuts.innerHTML = `N${(base_allowance*((e-100)/1000)+(base_salary - salary)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
+      cuts.innerHTML = `N${(base_allowance*((e-100)/1000)+(base_salary - salary) + base_allocation - allocation).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
      }
      else if (current == "allocation"){
       allocation =  base_allocation - (base_allocation*((e-100)/1000))
       allocation_targ.innerHTML = `N${(allocation).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
-      cuts.innerHTML = `N${((base_allocation*((e-100)/1000)+(base_salary - salary)+(base_allowance - allowance)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))}`  ;
+      savings.innerHTML = `N${((base_allocation*((e-100)/1000)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))}`  ;
+      cuts.innerHTML = `N${(base_allowance*((e-100)/1000)+(base_salary - salary) + base_allocation - allocation).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
      }
 
-     savings.innerHTML = `N${((base_allocation - allocation)* no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
+     savings.innerHTML = `N${((base_allocation - allocation)*no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
                                * no_of_senators).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
 
 }

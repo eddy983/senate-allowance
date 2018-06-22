@@ -1,16 +1,34 @@
-const box2 = document.querySelector(".header__box--2");
+const box_default = document.querySelector(".header__box--2");
 const box1 = document.querySelector(".header__box--1");
+
 const btn = document.querySelector("#btn__game");
 
+box_default.style.display = "block";
 box1.style.display = "none";
-box2.style.display = "block";
-
-box1.style.animation = "appear 1s ease-in .1s both";
 
 btn.addEventListener("click", (e)=>{
   box1.style.display = "block";
-  box2.style.display = "none";
-
-
+  box_default.style.display = "none";
+  
+  btn_response(((base_allocation - allocation)*no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
+  * no_of_senators))
+  
 })
-console.log(btn)
+
+var btn_response = (e)=>{
+  
+   
+for (let index = 0; index < banners.length; index++) {
+  const element = banners[index];
+  if(e < element.value){
+    box1.innerHTML = element.banner;
+    return;
+  }else{
+    box1.innerHTML = 'too much savings';
+  }
+  
+}
+
+}
+
+
