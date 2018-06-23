@@ -19,8 +19,9 @@ $light-gray: #eee;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: 300;
+  padding: remify(32);
 }
 
 .range-slider {
@@ -87,8 +88,8 @@ body {
     border: remify(2) solid $red;
     background-color: white;
     border-radius: 50%;
-    width: remify(15);
-    height: remify(15);
+    width: remify(8);
+    height: remify(8);
     cursor: pointer;
   }
 
@@ -139,21 +140,19 @@ body {
     background: $light-blue;
     display: inline-flex;
     justify-content: center;
-    width: remify(18);
-    height: remify(18);
+    width: remify(15);
+    height: remify(15);
     border-radius: 50%;
     position: relative;
     cursor: pointer;
   }
 
-  &__label,
-  &__label1,
-  &__label2 {
-    font-size: remify(23);
-    padding-top: remify(26);
+  &__label {
+    font-size: remify(14);
+    padding-top: remify(28);
 
     &.is-selected {
-      font-weight: 700;
+      font-weight: 600;
       color: $red;
     }
   }

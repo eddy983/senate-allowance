@@ -53,7 +53,7 @@ const banners = [
     "banner": `<div class="header__box__icon header__box__icon--1">
                       <img src="assets/img/Ma.svg" alt="Senator" class="header__box__icon__img header__box__icon__img--1">
                       <img src="assets/img/ma.svg" alt="Money" class="header__box__icon__img header__box__icon__img--2">
-                      <img src="assets/img/man.svg" alt="Money" class="header__box__icon__img header__box__icon__img--3">
+                      <img src="assets/img/car.svg" alt="Money" class="header__box__icon__img header__box__icon__img--3">
                       <img src="assets/img/Money.svg" alt="Money" class="header__box__icon__img header__box__icon__img--4">
                       <img src="assets/img/Money.svg" alt="Money" class="header__box__icon__img header__box__icon__img--5">
                       <h1 class="header__box__text--1">20000000</h1>

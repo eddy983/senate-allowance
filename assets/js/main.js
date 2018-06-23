@@ -42,13 +42,14 @@ class RangeSlider {
     }
   }
 
-  handleLabelClick(label, value, e) {
-    this.input.focus();
-    this.input.value = value;
-    this.input.setAttribute("value", value);
-    this.input.setAttribute("aria-valuetext", label);
-    this.setSelectedLabel(label);
-  }
+  // handleLabelClick(label, value, e) {
+  //   console.log(e)
+  //   this.input.focus();
+  //   this.input.value = value;
+  //   this.input.setAttribute("value", value);
+  //   this.input.setAttribute("aria-valuetext", label);
+  //   this.setSelectedLabel(label);
+  // }
 
   setSelectedLabel(label) {
     const selectedLabels = document.querySelectorAll(
@@ -139,7 +140,7 @@ class RangeSlider1 {
     this.input.setAttribute("aria-valuetext", ariaValueText);
 
     current= "allowance"
-    changetext1(e, "display1");
+    changetext(e, "display1");
     update(e.target.value)
 
     if (this.input.hasAttribute("labels")) {
@@ -242,7 +243,7 @@ class RangeSlider2 {
     const value = e.target.value;
     const ariaValueText = !this.labels ? value : this.labels[value];
     current= "allocation"
-    changetext2(e, "display2");
+    changetext(e, "display2");
     update(e.target.value);
     
     this.input.setAttribute("aria-valuetext", ariaValueText);
@@ -325,27 +326,36 @@ class RangeSlider2 {
   }
 }
 
+// const changetext = (e, target)=>{
+//   message = messages[parseInt(e.target.value)/100];
+//   console.log(e)
+//   let targ = document.querySelector( `#${target}` );
+//   targ.innerHTML = `${message}`
+// }
+
 const changetext = (e, target)=>{
-  message = messages[parseInt(e.target.value)/100];
-  console.log(e)
-  let targ = document.querySelector( `#${target}` );
-  targ.innerHTML = `${message}`
-}
+  if (e.target.className == "range-slider-input"){
+      message = messages[parseInt(e.target.value)/100];
+    
+      let targ = document.querySelector( `#${target}` );
+      targ.innerHTML = `${message}`
+  }
+  else if (e.target.className == "range-slider-input--1"){
+      message = messages1[parseInt(e.target.value)/100];
+    
+      let targ = document.querySelector( `#${target}` );
+      targ.innerHTML = `${message}`
+  }
+  else if (e.target.className == "range-slider-input--2"){
+      message = messages2[parseInt(e.target.value)/100];
+    
+      let targ = document.querySelector( `#${target}` );
+      targ.innerHTML = `${message}`
+  }
 
-const changetext1 = (e, target)=>{
-  message1 = messages[parseInt(e.target.value)/100];
-  console.log(e)
-  let targ = document.querySelector( `#${target}` );
-  targ.innerHTML = `${message1}`
-}
+  console.log(e.target.className)
 
-const changetext2 = (e, target)=>{
-  messages2 = messages[parseInt(e.target.value)/100];
-  console.log(e)
-  let targ = document.querySelector( `#${target}` );
-  targ.innerHTML = `${messages2}`
 }
-
 const update = (e)=>{
      let changes = document.querySelector("#changes");
      let savings = document.querySelector("#savings");
@@ -369,10 +379,18 @@ const update = (e)=>{
       savings.innerHTML = `N${((base_allocation*((e-100)/1000)).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))}`  ;
       cuts.innerHTML = `N${(base_allowance*((e-100)/1000)+(base_salary - salary) + base_allocation - allocation).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
      }
+     else if (current == "none"){
+      savings.innerHTML = `N${0}`  ;
+      cuts.innerHTML = `N${0}`  ;
+      savings.innerHTML = `N${0}`;
+      salary = 750000;
+      allowance = 12500000;
+      allocation = 200000000;
+      return;
+     }
 
-     savings.innerHTML = `N${((base_allocation - allocation)*no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
+     savings.innerHTML = `N${((base_allocation - allocation) * no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
                                * no_of_senators).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}`  ;
-
 }
 
 new RangeSlider(".range-slider-input");
