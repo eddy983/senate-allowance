@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Zilla+Slab:300,400,500,600,700");
-
-$red: #EB5757;
+$red: #eb5757;
 $light-blue: #d8e0f3;
 $light-gray: #eee;
 
@@ -11,17 +9,11 @@ $light-gray: #eee;
     @if $value == 0 or $value == auto {
       $rems: append($rems, $value);
     } @else {
-      $rems: append($rems,  ($value / 17) + rem);
+      $rems: append($rems, ($value / 17) + rem);
     }
   }
 
   @return $rems;
-}
-
-body {
-  font-family: "Montserrat", Arial, Helvetica, sans-serif;
-  font-weight: 300;
-  padding: remify(32);
 }
 
 .range-slider {
@@ -147,8 +139,10 @@ body {
     cursor: pointer;
   }
 
-  &__label {
-    font-size: remify(14);
+  &__label,
+  &__label1,
+  &__label2 {
+    font-size: remify(27);
     padding-top: remify(28);
 
     &.is-selected {

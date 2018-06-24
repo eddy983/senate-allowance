@@ -25,7 +25,7 @@ click++;
   box1.style.display = "block";
   box_default.style.display = "none";
   
-  btn_response(((base_allocation - allocation)*no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
+  btn_response(((base_allocation - allocation) * no_of_senators + ((base_allowance - allowance) + (base_salary - salary))
   * no_of_senators))
   
   

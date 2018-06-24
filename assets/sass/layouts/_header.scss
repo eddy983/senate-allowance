@@ -2,35 +2,135 @@
   //margin-top: 4rem;
 
   &__box {
-    height: 48.9rem;
+    height: 50.9rem;
     width: 100%;
+
+    @include respond(mic-l) {
+      height: 43.9rem;
+    }
+
+    @include respond(nex-9) {
+      height: 36.9rem;
+    }
+
+    @include respond(nex-4) {
+      height: 32rem;
+    }
+
+    
 
     &--1 {
       background-color: $greenish-bg-color;
       z-index: 1;
       animation: appear  2s -4s both;
-      //animation: appear 4s ease-in 2s both;
-      //animation: name duration timing-function delay iteration-count direction fill-mode;
+
+      @include respond(nex-9) {
+        height: 45.9rem;
+      }
+  
+      @include respond(m-phone) {
+        height: 43.9rem;
+      }
+  
+      @include respond(s-phone) {
+        height: 40.9rem;
+      }
+      
+
+      &--c2 {
+        background-color: rgba(186, 213, 228, 0.74);
+      }
+      
+      &--c3 {
+        background-color: rgba(120, 157, 195, 0.42);
+      }
+
+      &--c4 {
+        background-color: rgba(120, 157, 195, 0.5);
+      }
+      
+      &--c4 {
+        background-color: rgba(113, 113, 113, 0.5);
+      }
+
+      &--c5 {
+        background-color: rgba(111, 101, 113, 0.33);
+      }
+
+      &--c6 {
+        background-color: rgba(119, 119, 119, 0.62);
+      }
+
+      &--c7 {
+        background-color: rgba(84, 192, 235, 0.45);
+      }
+
+      &--c8 {
+        background-color: rgba(240, 188, 94, 0.4);
+      }
+
+      &--c9 {
+        background-color: #bdc3c79c;
+      }
+      &--c10 {
+        background-color: rgba(134, 118, 104, 0.6);
+      }
+      &--c11 {
+        background-color: #1e2021bf;
+      }
+      &--c12 {
+        background-color: #DCA046;
+      }
+      &--c13 {
+        background-color: rgba(145, 220, 90, 0.15);
+      }
+      &--c14 {
+        background-color: rgba(94, 203, 102, 0.41);
+      }
+      &--c15 {
+        background-color: rgba(153, 153, 153, 0.12);
+      }
+      &--c16 {
+        background-color: rgba(197, 18, 0, 0.27);
+      }
+      &--c17 {
+        background-color: rgba(125, 117, 71, 0.69);
+      }
+      &--c18 {
+        background-color: rgba(235, 235, 235, 0.72);
+      }
+      &--c19 {
+        background-color: rgba(245, 165, 91, 0.43);
+      }
     }
 
     &--2 {
-      background-color: $grey-color-2;
+      background-color: $brown-color;
       z-index: 2;
       display: none;
     }
 
     &__text {
       display: block;
+      margin-top: -3rem; 
 
       &--1 {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-24%, 330%);
+        transform: translate(70%, 724%);
 
-        @include respond(4k-desk) {
-          transform: translate(21%, 330%);
+        @include respond(mic-l) {
+          transform: translate(48%, 614%);
         }
+
+        @include respond(nex-9) {
+          transform: translate(51%, 500%);
+        }
+
+        @include respond(nex-4) {
+          transform: translate(40%, 440%);
+        } 
       }
     }
 
@@ -50,119 +150,146 @@
         }
 
         @include respond(l-phone) {
-        transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
         }
 
         &--1 {
           height: 13.8rem;
-          transform: translate(-204%, 110%);
+          transform: translate(-66%, 239%);
 
-          @include respond(4k-desk) {
-            transform: translate(-124%, 110%);
+          @include respond(mic-l) {
+            height: 11.8rem;
+          }
+          
+          @include respond(nex-9) {
+            height: 9.8rem;
           }
 
-          @include respond(iphone-6-plus) {
-            height: 10.8rem;
+          @include respond(nex-4) {
+            height: 8.8rem;
           }
-
-          @include respond(s-phone) {
-            height: 10.8rem;
-          }
-
         }
 
         &--2 {
           height: 8.8rem;
-          transform: translate(-222%, 68%);
+          transform: translate(-227%, 145%);
 
           @include respond(4k-desk) {
-            transform: translate(-340%, 68%);
+            transform: translate(-283%, 145%);
+          }
+
+          @include respond(mic-l) {
+            height: 7.2rem;
           }
 
           @include respond(nex-9) {
-            height: 7.8rem;
+            height: 5.4rem;
           }
 
-          @include respond(nex-9) {
-            height: 7.8rem;
+          @include respond(nex-4) {
+            height: 4.4rem;
           }
-
-          @include respond(l-phone) {
-            transform: translate(-197%, 68%);
-          }
-
-          @include respond(iphone-6-plus) {
-            height: 6.8rem;
-          }
-
-
-          
         }
 
         &--3 {
           height: 8.8rem;
-          transform: translate(126%, 68%);
+          transform: translate(283%, 139%);
 
           @include respond(4k-desk) {
-            transform: translate(248%, 68%);
+            transform: translate(360%, 139%);
+          }
+
+          @include respond(mic-l) {
+            height: 7.2rem;
           }
 
           @include respond(nex-9) {
-            height: 7.8rem;
+            height: 5.4rem;
           }
 
-          @include respond(l-phone) {
-            transform: translate(93%, 68%);
+          @include respond(nex-4) {
+            height: 4.4rem;
           }
-
-          @include respond(iphone-6-plus) {
-            height: 6.8rem;
-          }
-
         }
 
         &--4 {
           height: 8.8rem;
-          transform: translate(-167%, 368%);
+          transform: translate(-303%, 432%);
 
           @include respond(4k-desk) {
-            transform: translate(-226%, 368%);
+            transform: translate(-436%, 432%);
+          }
+
+          @include respond(mic-l) {
+            height: 7.2rem;
           }
 
           @include respond(nex-9) {
-            height: 7.8rem;
+            height: 5.4rem;
           }
 
-          @include respond(l-phone) {
-            transform: translate(-156%, 368%);
+          @include respond(nex-4) {
+            height: 4.4rem;
           }
-
-          @include respond(iphone-6-plus) {
-            height: 6.8rem;
-          }
-
         }
 
         &--5 {
           height: 8.8rem;
-          transform: translate(56%, 368%);
+          transform: translate(184%, 296%);
 
           @include respond(4k-desk) {
-            transform: translate(154%, 368%);
+            transform: translate(250%, 296%);
+          }
+
+          @include respond(mic-l) {
+            height: 7.2rem;
           }
 
           @include respond(nex-9) {
-            height: 7.8rem;
+            height: 5.4rem;
           }
 
-          @include respond(l-phone) {
-            transform: translate(38%, 368%);
+          @include respond(nex-4) {
+            height: 4.4rem;
+          }
+        }
+
+        &--6 {
+          height: 7.8rem;
+          transform: translate(-171%, 342%);
+
+          @include respond(4k-desk) {
+            transform: translate(-213%, 342%);
           }
 
-          @include respond(iphone-6-plus) {
-            height: 6.8rem;
+          @include respond(mic-l) {
+            height: 6.2rem;
           }
 
+          @include respond(nex-9) {
+            height: 4.4rem;
+          }
+
+          @include respond(nex-4) {
+            height: 3.4rem;
+          }
+        }
+
+        &--7 {
+          height: 23.8rem;
+          transform: translate(-45%, 6%);
+
+          @include respond(mic-l) {
+            height: 19.8rem;
+          }
+          
+          @include respond(nex-9) {
+            height: 14.8rem;
+          }
+
+          @include respond(nex-4) {
+            height: 11.8rem;
+          }          
         }
       }
     }

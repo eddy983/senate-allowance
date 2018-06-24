@@ -42,15 +42,6 @@ class RangeSlider {
     }
   }
 
-  // handleLabelClick(label, value, e) {
-  //   console.log(e)
-  //   this.input.focus();
-  //   this.input.value = value;
-  //   this.input.setAttribute("value", value);
-  //   this.input.setAttribute("aria-valuetext", label);
-  //   this.setSelectedLabel(label);
-  // }
-
   setSelectedLabel(label) {
     const selectedLabels = document.querySelectorAll(
       ".range-slider-ticks__label"
@@ -148,14 +139,6 @@ class RangeSlider1 {
     }
   }
 
-  handleLabelClick(label, value, e) {
-    this.input.focus();
-    this.input.value = value;
-    this.input.setAttribute("value", value);
-    this.input.setAttribute("aria-valuetext", label);
-    this.setSelectedLabel(label);
-  }
-
   setSelectedLabel(label) {
     const selectedLabels = document.querySelectorAll(
       ".range-slider-ticks__label1"
@@ -251,14 +234,6 @@ class RangeSlider2 {
     if (this.input.hasAttribute("labels")) {
       this.setSelectedLabel(this.labels[value]);
     }
-  }
-
-  handleLabelClick(label, value, e) {
-    this.input.focus();
-    this.input.value = value;
-    this.input.setAttribute("value", value);
-    this.input.setAttribute("aria-valuetext", label);
-    this.setSelectedLabel(label);
   }
 
   setSelectedLabel(label) {

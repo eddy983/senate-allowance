@@ -1,18 +1,18 @@
 .u-text-align { text-align: center; }
 
 .u-sub-margin { 
-  margin-top: -5rem;
+  margin-top: -4rem;
 
   @include respond(mic-l) {
-    margin-top: -4rem;
+    margin-top: -3rem;
   }
 
   @include respond(nex-9) {
-    margin-top: -2rem;
+    margin-top: -1.5rem;
   }
 
   @include respond(l-phone) {
-    margin-top: -2rem;
+    margin-top: -1.5rem;
   }
 
   @include respond(m-phone) {
