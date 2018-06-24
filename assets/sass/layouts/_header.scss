@@ -112,7 +112,11 @@
 
     &__text {
       display: block;
-      margin-top: -3rem; 
+      margin-top: -3rem;
+      
+      @include respond(nex-4) {
+        margin-top: -1rem;
+      }
 
       &--1 {
         position: absolute;

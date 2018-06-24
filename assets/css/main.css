@@ -210,12 +210,9 @@ body {
   @media (max-width: 26.5625em) {
     .u-sub-margin {
       margin-top: -1.5rem; } }
-  @media (max-width: 23.4375em) {
+  @media (max-width: 24em) {
     .u-sub-margin {
       margin-top: -1rem; } }
-  @media (max-width: 20em) {
-    .u-sub-margin {
-      margin-top: 0rem; } }
 
 .u-card-cap-margin {
   margin-top: -0.5rem; }
@@ -520,6 +517,9 @@ body {
   .header__box__text {
     display: block;
     margin-top: -3rem; }
+    @media (max-width: 24em) {
+      .header__box__text {
+        margin-top: -1rem; } }
     .header__box__text--1 {
       position: absolute;
       top: 50%;

@@ -15,13 +15,10 @@
     margin-top: -1.5rem;
   }
 
-  @include respond(m-phone) {
+  @include respond(nex-4) {
     margin-top: -1rem;
   }
 
-  @include respond(s-phone) {
-    margin-top: 0rem;
-  }
   
  }
 

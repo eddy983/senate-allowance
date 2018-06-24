@@ -64,7 +64,7 @@ ORDER: Base + typography > general layout + grid > page layout > components
     @media (max-width: 24em) { @content }; // 384px in em
   }
   @if $breakpoint == pix-2 {
-    @media (max-width: 25.6875em) { @content }; // 411px in em
+    @media (max-width: 25.6875em) { @content }; // 411px in em 
   }
   @if $breakpoint == iphone-6-plus {
     @media (max-width: 25.875em) { @content }; // 414px in em
