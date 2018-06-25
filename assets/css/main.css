@@ -462,7 +462,7 @@ body {
         height: 45.9rem; } }
     @media (max-width: 20em) {
       .header__box--1 {
-        height: 42.9rem; } }
+        height: 44.9rem; } }
     .header__box--1--c2 {
       background-color: rgba(186, 213, 228, 0.74); }
     .header__box--1--c3 {
@@ -511,6 +511,9 @@ body {
     @media (max-width: 30em) {
       .header__box__text {
         margin-top: 0rem; } }
+    @media (max-width: 20em) {
+      .header__box__text {
+        padding-bottom: 1rem; } }
     .header__box__text--1 {
       position: absolute;
       top: 50%;

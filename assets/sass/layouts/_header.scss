@@ -37,7 +37,7 @@
       }
   
       @include respond(s-phone) {
-        height: 42.9rem;
+        height: 44.9rem;
       }
       
 
@@ -120,6 +120,10 @@
       
       @include respond(nex-9) {
         margin-top: 0rem;
+      }
+
+      @include respond(s-phone) {
+        padding-bottom: 1rem;
       }
 
       &--1 {
