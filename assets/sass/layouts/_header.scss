@@ -24,16 +24,20 @@
       z-index: 1;
       animation: appear  2s -4s both;
 
+      @include respond(mic-l) {
+        height: 50.9rem;
+      }
+
       @include respond(nex-9) {
-        height: 45.9rem;
+        height: 46.9rem;
       }
   
       @include respond(m-phone) {
-        height: 43.9rem;
+        height: 44.9rem;
       }
   
       @include respond(s-phone) {
-        height: 40.9rem;
+        height: 41.9rem;
       }
       
 
@@ -114,7 +118,7 @@
       display: block;
       margin-top: -3rem;
       
-      @include respond(nex-4) {
+      @include respond(nex-9) {
         margin-top: -1rem;
       }
 
@@ -135,6 +139,14 @@
         @include respond(nex-4) {
           transform: translate(40%, 440%);
         } 
+
+        @include respond(s-phone) {
+          transform: translate(32%, 386%);
+        }
+      }
+
+      &--2 {
+        margin-top: 6rem;
       }
     }
 
@@ -172,6 +184,10 @@
           @include respond(nex-4) {
             height: 8.8rem;
           }
+
+          @include respond(s-phone) {
+            height: 7.8rem;
+          }
         }
 
         &--2 {
@@ -192,6 +208,10 @@
 
           @include respond(nex-4) {
             height: 4.4rem;
+          }
+
+          @include respond(s-phone) {
+            height: 3.8rem;
           }
         }
 
@@ -214,6 +234,10 @@
           @include respond(nex-4) {
             height: 4.4rem;
           }
+
+          @include respond(s-phone) {
+            height: 3.8rem;
+          }
         }
 
         &--4 {
@@ -234,6 +258,10 @@
 
           @include respond(nex-4) {
             height: 4.4rem;
+          }
+
+          @include respond(s-phone) {
+            height: 3.8rem;
           }
         }
 
@@ -256,6 +284,10 @@
           @include respond(nex-4) {
             height: 4.4rem;
           }
+
+          @include respond(s-phone) {
+            height: 3.8rem;
+          }
         }
 
         &--6 {
@@ -277,6 +309,10 @@
           @include respond(nex-4) {
             height: 3.4rem;
           }
+
+          @include respond(s-phone) {
+            height: 3.4rem;
+          }
         }
 
         &--7 {
@@ -293,7 +329,23 @@
 
           @include respond(nex-4) {
             height: 11.8rem;
-          }          
+          }
+          
+          @include respond(s-phone) {
+            height: 9.8rem;
+          }
+        }
+
+        &--8 {
+          height: 13.8rem;
+
+          @include respond(nex-4) {
+            height: 11.8rem;
+          } 
+        }
+
+        &--9 {
+          height: 17.8rem;
         }
       }
     }

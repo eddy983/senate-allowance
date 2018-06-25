@@ -57,7 +57,7 @@ const banners = [
                 <h1 class="header__box__text main-no" id="changes">
                   Try Again
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
+                <p class="header__box__text--2 u-sub-margin main-text">
                   No significant change has been made
                 </p>
               </div>
@@ -70,7 +70,7 @@ const banners = [
                 <h1 class="header__box__text main-no" id="changes">
                   500,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
+                <p class="header__box__text header__box__text--l u-sub-margin main-text">
                   Nigerian children gets 50 schools built and maintained for them.
                 </p>
               </div>
@@ -219,7 +219,7 @@ const banners = [
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/fertilizer-tractor.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/fertilizer-tractor.svg" alt="Icon" class="header__box__icon__img header__box__icon__img--9">
               </div>
             </div>`
   },
@@ -363,7 +363,7 @@ const banners = [
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/refinerys.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/refinerys.svg" alt="Icon" class="header__box__icon__img header__box__icon__img--8">
               </div>
             </div>`
   },

@@ -201,18 +201,6 @@ body {
 
 .u-sub-margin {
   margin-top: -4rem; }
-  @media (max-width: 40em) {
-    .u-sub-margin {
-      margin-top: -3rem; } }
-  @media (max-width: 30em) {
-    .u-sub-margin {
-      margin-top: -1.5rem; } }
-  @media (max-width: 26.5625em) {
-    .u-sub-margin {
-      margin-top: -1.5rem; } }
-  @media (max-width: 24em) {
-    .u-sub-margin {
-      margin-top: -1rem; } }
 
 .u-card-cap-margin {
   margin-top: -0.5rem; }
@@ -463,15 +451,18 @@ body {
     background-color: rgba(161, 187, 172, 0.74);
     z-index: 1;
     animation: appear  2s -4s both; }
+    @media (max-width: 40em) {
+      .header__box--1 {
+        height: 50.9rem; } }
     @media (max-width: 30em) {
       .header__box--1 {
-        height: 45.9rem; } }
+        height: 46.9rem; } }
     @media (max-width: 23.4375em) {
       .header__box--1 {
-        height: 43.9rem; } }
+        height: 44.9rem; } }
     @media (max-width: 20em) {
       .header__box--1 {
-        height: 40.9rem; } }
+        height: 41.9rem; } }
     .header__box--1--c2 {
       background-color: rgba(186, 213, 228, 0.74); }
     .header__box--1--c3 {
@@ -517,7 +508,7 @@ body {
   .header__box__text {
     display: block;
     margin-top: -3rem; }
-    @media (max-width: 24em) {
+    @media (max-width: 30em) {
       .header__box__text {
         margin-top: -1rem; } }
     .header__box__text--1 {
@@ -534,6 +525,11 @@ body {
       @media (max-width: 24em) {
         .header__box__text--1 {
           transform: translate(40%, 440%); } }
+      @media (max-width: 20em) {
+        .header__box__text--1 {
+          transform: translate(32%, 386%); } }
+    .header__box__text--2 {
+      margin-top: 6rem; }
   .header__box__icon {
     position: relative; }
     .header__box__icon__img {
@@ -560,6 +556,9 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--1 {
             height: 8.8rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--1 {
+            height: 7.8rem; } }
       .header__box__icon__img--2 {
         height: 8.8rem;
         transform: translate(-227%, 145%); }
@@ -575,6 +574,9 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--2 {
             height: 4.4rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--2 {
+            height: 3.8rem; } }
       .header__box__icon__img--3 {
         height: 8.8rem;
         transform: translate(283%, 139%); }
@@ -590,6 +592,9 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--3 {
             height: 4.4rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--3 {
+            height: 3.8rem; } }
       .header__box__icon__img--4 {
         height: 8.8rem;
         transform: translate(-303%, 432%); }
@@ -605,6 +610,9 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--4 {
             height: 4.4rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--4 {
+            height: 3.8rem; } }
       .header__box__icon__img--5 {
         height: 8.8rem;
         transform: translate(184%, 296%); }
@@ -620,6 +628,9 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--5 {
             height: 4.4rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--5 {
+            height: 3.8rem; } }
       .header__box__icon__img--6 {
         height: 7.8rem;
         transform: translate(-171%, 342%); }
@@ -635,6 +646,9 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--6 {
             height: 3.4rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--6 {
+            height: 3.4rem; } }
       .header__box__icon__img--7 {
         height: 23.8rem;
         transform: translate(-45%, 6%); }
@@ -647,6 +661,16 @@ body {
         @media (max-width: 24em) {
           .header__box__icon__img--7 {
             height: 11.8rem; } }
+        @media (max-width: 20em) {
+          .header__box__icon__img--7 {
+            height: 9.8rem; } }
+      .header__box__icon__img--8 {
+        height: 13.8rem; }
+        @media (max-width: 24em) {
+          .header__box__icon__img--8 {
+            height: 11.8rem; } }
+      .header__box__icon__img--9 {
+        height: 17.8rem; }
 
 .game {
   margin-top: 6.2rem; }
