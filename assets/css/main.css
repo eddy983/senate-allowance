@@ -457,9 +457,6 @@ body {
     @media (max-width: 30em) {
       .header__box--1 {
         height: 47.9rem; } }
-    @media (max-width: 23.4375em) {
-      .header__box--1 {
-        height: 45.9rem; } }
     @media (max-width: 20em) {
       .header__box--1 {
         height: 44.9rem; } }
@@ -511,7 +508,7 @@ body {
     @media (max-width: 30em) {
       .header__box__text {
         margin-top: 0rem; } }
-    @media (max-width: 20em) {
+    @media (max-width: 23.4375em) {
       .header__box__text {
         padding-bottom: 1rem; } }
     .header__box__text--1 {
