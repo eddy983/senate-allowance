@@ -29,15 +29,15 @@
       }
 
       @include respond(nex-9) {
-        height: 46.9rem;
+        height: 47.9rem;
       }
   
       @include respond(m-phone) {
-        height: 44.9rem;
+        height: 45.9rem;
       }
   
       @include respond(s-phone) {
-        height: 41.9rem;
+        height: 42.9rem;
       }
       
 
@@ -119,7 +119,7 @@
       margin-top: -3rem;
       
       @include respond(nex-9) {
-        margin-top: -1rem;
+        margin-top: 0rem;
       }
 
       &--1 {
