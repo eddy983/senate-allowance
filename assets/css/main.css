@@ -451,8 +451,7 @@ body {
       height: 32rem; } }
   .header__box--1 {
     background-color: rgba(161, 187, 172, 0.74);
-    z-index: 1;
-    animation: appear  2s -4s both; }
+    z-index: 1; }
     @media (max-width: 40em) {
       .header__box--1 {
         height: 50.9rem; } }

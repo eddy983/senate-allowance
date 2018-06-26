@@ -22,7 +22,7 @@
     &--1 {
       background-color: $greenish-bg-color;
       z-index: 1;
-      animation: appear  2s -4s both;
+      //animation: appear  2s -4s both;
 
       @include respond(mic-l) {
         height: 50.9rem;
