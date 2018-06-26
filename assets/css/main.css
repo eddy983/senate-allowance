@@ -223,10 +223,12 @@ body {
   border-radius: 0.8rem;
   box-shadow: 0.2rem 0.4rem 0.6rem rgba(0, 0, 0, 0.24);
   color: #000;
+  font-size: 1.7rem;
+  font-weight: bolder;
   outline: 0;
   padding: 1.4rem 2.6rem;
   text-decoration: none;
-  transform: translate(382%, 0%); }
+  transform: translate(50%, 0%); }
   @media (min-width: 160em) {
     .btn__game {
       left: 56.7rem; } }
@@ -737,7 +739,7 @@ body {
       margin-top: 3rem; }
   .game__button {
     position: relative;
-    margin: 14rem 0 24rem 0; }
+    margin: 14rem 0 27rem 0; }
     @media (max-width: 48em) {
       .game__button {
         margin: 17rem 0 24rem 0; } }

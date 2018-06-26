@@ -7,15 +7,14 @@ box_default.style.display = "block";
 box1.style.display = "none";
 
 btn.addEventListener("click", (e)=>{
-  if (click == 2) {
+  // if (click == 2) {
     
-    
-    current = "none"
-    setTimeout(() => {
-      update();
-    }, 200);
-    click = 0
-  }
+  //   current = "none"
+  //   setTimeout(() => {
+  //     update();
+  //   }, 200);
+  //   click = 0
+  // }
  
 click++;
   
