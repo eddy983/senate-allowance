@@ -1,5 +1,5 @@
 const messages = {
-  "1": "There is no reduction at this level.",
+  "1": "You can reduced your senators salary in any remuneration.",
   "2": "Salary of a Federal Health consultant.",
   "3": "A professor in Nigerian university.",
   "4": "Approximately same with a Colonel in the Nigerian Army.",
@@ -13,7 +13,7 @@ const messages = {
     "This is almost the monthly salary earned by a graduate level civil servant."
 };
 const messages1 = {
-  "1": "There is no reduction at this level.",
+  "1": "You can reduced your senators salary in any remuneration.",
   "2": "Scholarships (at least up to Secondary school level) for 100 students.",
   "3": "Provide Street lights in major roads in a senatorial district.",
   "4": "Run a state-of-the art IT centre in at least 2 schools.",
@@ -29,7 +29,7 @@ const messages1 = {
 };
 
 const messages2 = {
-  "1": "There is no reduction at this level.",
+  "1": "You can reduced your senators salary in any remuneration.",
   "2": "This will build a state-of-the-art SME centre/hub for entrepreneurs.",
   "3":
     "This can build and rehabilitate all link roads within a senatorial district.",
