@@ -10,7 +10,11 @@ body {
   font-family: 'Concert One', display;
   font-style: normal;
   font-weight: 400;
-  font-size: 16rem;
+  font-size: 17rem;
+
+  &--w {
+    color: $color-white;
+  }
 
   @include respond(mic-l) {
     font-size: 14rem;
@@ -35,7 +39,11 @@ body {
 
 .main-text {
   font-weight: 400;
-  font-size: 2rem;
+  font-size: 1.8rem;
+
+  &--w {
+    color: $color-white;
+  }
 
   @include respond(mic-l) {
     font-size: 1.8rem;

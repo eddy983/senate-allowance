@@ -68,10 +68,10 @@ const banners = [
     banner: `<div class="header__box header__box--1" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  500,000
+                  50
                 </h1>
-                <p class="header__box__text header__box__text--l u-sub-margin main-text">
-                  Nigerian children gets 50 schools built and maintained for them.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  New schools built and maintained  for nigerian children.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -84,10 +84,10 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c2" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  1,000,000
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Nigerians get 10 well equipped health centres build for them.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will get 10 well equipped health centres build for them.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -100,10 +100,10 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c3" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  10,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will build state of the art specialist hospitals to avoid medical tourism.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will get  5 state-of-the art specialist hospitals built for them.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -113,17 +113,17 @@ const banners = [
   },
   {
     value: 5000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c4" id="header__box">
+    banner: `<div class="header__box header__box--1--c4" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                 Savings
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                 Will complete all current road projects in Nigeria.
+                <p class="header__box__text header__box__text--5 u-sub-margin main-text">
+                  Nigerian talents will have state-of-the art sports facilities built to train in all states.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/road-with-broken-line.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/football-field.svg" alt="Icon" class="header__box__icon__img--f">
               </div>
             </div>`
   },
@@ -132,10 +132,10 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c5" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will provide prepaid meters for all Nigerians.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will have prepaid meters provided for them with this amount.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -148,10 +148,10 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c6" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  50
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  New roads will be built across the nation.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will have 50 new roads built to serve them across the nation.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -164,10 +164,10 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c7" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                 Savings
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  This will cater for rural electrification projects.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will have rural electrification projects to cater for them.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -180,10 +180,10 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c8" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will provide vaccinations against diseases and reduce child mortality.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerian children will receive vaccinations and immunization with this.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -198,8 +198,8 @@ const banners = [
                 <h1 class="header__box__text main-no" id="changes">
                   1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Nigerians get portable water provided for them.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will have access to potable water.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -211,11 +211,11 @@ const banners = [
     value: 11000000000,
     banner: `<div class="header__box header__box--1 header__box--1--c10" id="header__box">
               <div class="u-text-align">
-                <h1 class="header__box__text main-no" id="changes">
+                <h1 class="header__box__text main-no main-no--w" id="changes">
                   1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                 Nigerians will be fed via a funded mechanized agriculture campaign.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text main-text--w">
+                  Nigerians will be fed via a funded mechanized agriculture campaign.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -227,15 +227,15 @@ const banners = [
     value: 12000000000,
     banner: `<div class="header__box header__box--1 header__box--1--c11" id="header__box">
               <div class="u-text-align">
-                <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                <h1 class="header__box__text main-no main-no--w" id="changes">
+                  50,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will fund the police to be able to curb rising insecurity, thereby saving lives.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text main-text--w">
+                  New Police stations will be built, thereby reducing rising insecurity.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/police.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/police station.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
@@ -244,14 +244,14 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c12" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will fund light rail projects in major cities in the country.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will have soft loans to build small & medium enterprises.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/train.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/store.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
@@ -260,42 +260,29 @@ const banners = [
     banner: `<div class="header__box header__box--1 header__box--1--c13" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will fund a massive infrastructural turnaround in the country.
+                <p class="header__box__text header__box__text--6 u-sub-margin main-text">
+                  Nigerians will be served by light rail projects carried out
+                  in major cities.               
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/city-buildings-view.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/train.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
   {
     value: 15000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c14" id="header__box">
+    banner: `<div class="header__box header__box--1  header__box--1--c14" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will build and maintain state-of-the art sports facilities in all states of the federation.
-                </p>
-              </div>
-              <div class="header__box__icon">
-                <img src="assets/img/football-field.svg" alt="Icon" class="header__box__icon__img">
-              </div>
-            </div>`
-  },
-  {
-    value: 16000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c15" id="header__box">
-              <div class="u-text-align">
-                <h1 class="header__box__text main-no" id="changes">
-                  Savings
-                </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will fund a massive rehabilitation of tertiary institutions to World-class standard.
+                <p class="header__box__text header__box__text--7 u-sub-margin main-text">
+                  Nigerian youths will have access to quality tertiary education:
+                  this will fund a massive rehabilitation of  3 major tertiary
+                  institutions to World-class standard.
                 </p>
               </div>
               <div class="header__box__icon">
@@ -304,82 +291,103 @@ const banners = [
             </div>`
   },
   {
-    value: 17000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c16" id="header__box">
+    value: 16000000000,
+    banner: `<div class="header__box header__box--1 header__box--1--c15" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will build Cottage Industries around Nigeria, thereby reducing unemployment.
+                <p class="header__box__text header__box__text--8 u-sub-margin main-text">
+                  Nigerians will be empowered by the funding of cottage industries across 
+                  the country.
                 </p>
               </div>
               <div class="header__box__icon">
                 <img src="assets/img/factory.svg" alt="Icon" class="header__box__icon__img">
+              </div>
+            </div>`
+  },
+  {
+    value: 17000000000,
+    banner: `<div class="header__box header__box--1 header__box--1--c16" id="header__box">
+              <div class="u-text-align">
+                <h1 class="header__box__text main-no" id="changes">
+                  50,000bpd
+                </h1>
+                <p class="header__box__text header__box__text--8 u-sub-margin main-text">
+                  Will be produced for local consuption via getting our refineries running 
+                  at full capacity.
+                </p>
+              </div>
+              <div class="header__box__icon">
+                <img src="assets/img/refinery (2).svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
   {
     value: 18000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c16" id="header__box">
+    banner: `<div class="header__box header__box--1 header__box--1--c17" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will help launch an industrial revolution that will boost economy.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will be fed via food processing facilities built in each geo-political zone 
+                  thereby empowering 100,000 people.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/factory.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/refinery.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
   {
     value: 19000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c17" id="header__box">
+    banner: `<div class="header__box header__box--1 header__box--1--c18" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  1,000,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will fund the Nigerian military to be able to intensify counter-terrorism policies.
+                <p class="header__box__text header__box__text--4 u-sub-margin main-text">
+                  Nigerians will be provided with shelter via funded housing projects.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/military.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/wood-house.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
   {
     value: 20000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c18" id="header__box">
+    banner: `<div class="header__box header__box--1 header__box--1--c19" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  Savings
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Will help get our refineries running, at least producing enough for local consumption.
+                <p class="header__box__text header__box__text--8 u-sub-margin main-text">
+                  Nigerians will be trained and empowered via the building of
+                  technologyhubs and research centres in all geo-political zones.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/refinerys.svg" alt="Icon" class="header__box__icon__img header__box__icon__img--8">
+                <img src="assets/img/research.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   },
   {
     value: 21000000000,
-    banner: `<div class="header__box header__box--1 header__box--1--c19" id="header__box">
+    banner: `<div class="header__box header__box--1 header__box--1--c20" id="header__box">
               <div class="u-text-align">
                 <h1 class="header__box__text main-no" id="changes">
-                  1,000,000
+                  100,000
                 </h1>
-                <p class="header__box__text u-sub-margin main-text">
-                  Nigerians will get shelter via a funded housing project.
+                <p class="header__box__text header__box__text--7 u-sub-margin main-text">
+                  Displaced Nigerians in troubled areas will have camps set up 
+                  and maintained to cater for them.
                 </p>
               </div>
               <div class="header__box__icon">
-                <img src="assets/img/wood-house.svg" alt="Icon" class="header__box__icon__img">
+                <img src="assets/img/tent.svg" alt="Icon" class="header__box__icon__img">
               </div>
             </div>`
   }

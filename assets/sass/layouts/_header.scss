@@ -2,7 +2,7 @@
   //margin-top: 4rem;
 
   &__box {
-    height: 50.9rem;
+    height: 55rem;
     width: 100%;
 
     @include respond(mic-l) {
@@ -17,12 +17,12 @@
       height: 32rem;
     }
 
-    
-
-    &--1 {
+    &--1 { 
       background-color: $greenish-bg-color;
+      height: 58rem;
       z-index: 1;
       //animation: appear  2s -4s both;
+
 
       @include respond(mic-l) {
         height: 50.9rem;
@@ -31,27 +31,22 @@
       @include respond(nex-9) {
         height: 47.9rem;
       }
-  
-  
+
       @include respond(s-phone) {
         height: 44.9rem;
       }
-      
 
       &--c2 {
-        background-color: rgba(186, 213, 228, 0.74);
+        background-color: rgba(186, 213, 228, 1);
       }
-      
+
       &--c3 {
-        background-color: rgba(120, 157, 195, 0.42);
+        background-color: rgba(120, 157, 195, 0.72);
       }
 
       &--c4 {
-        background-color: rgba(120, 157, 195, 0.5);
-      }
-      
-      &--c4 {
-        background-color: rgba(113, 113, 113, 0.5);
+        background-color: rgba(94, 203, 102, 0.41);
+        height: 55rem;
       }
 
       &--c5 {
@@ -74,34 +69,37 @@
         background-color: #bdc3c79c;
       }
       &--c10 {
-        background-color: rgba(134, 118, 104, 0.6);
+        background-color: rgba(134, 118, 104, 0.82);
       }
       &--c11 {
-        background-color: #1e2021bf;
+        background-color: #1e2021;
       }
       &--c12 {
-        background-color: #DCA046;
+        background-color: rgba(179, 244, 255, 0.37);
       }
       &--c13 {
-        background-color: rgba(145, 220, 90, 0.15);
+        background-color: #dca046;
       }
       &--c14 {
-        background-color: rgba(94, 203, 102, 0.41);
+        background-color: rgba(153, 153, 153, 0.32);
       }
       &--c15 {
-        background-color: rgba(153, 153, 153, 0.12);
+        background-color: rgba(255, 40, 19, 0.28);
       }
       &--c16 {
-        background-color: rgba(197, 18, 0, 0.27);
+        background-color: rgba(156, 150, 158, 0.35);
       }
       &--c17 {
-        background-color: rgba(125, 117, 71, 0.69);
+        background-color: #fff8f8;
       }
       &--c18 {
-        background-color: rgba(235, 235, 235, 0.72);
+        background-color: #ffdab6;
       }
       &--c19 {
-        background-color: rgba(245, 165, 91, 0.43);
+        background-color: #ffe995;
+      }
+      &--c20 {
+        background-color: #ecd5bc;
       }
     }
 
@@ -111,10 +109,15 @@
       display: none;
     }
 
+    &--3 {
+      height: 55rem;
+    }
+
+
     &__text {
       display: block;
-      margin-top: -3rem;
-      
+      margin-top: -6rem;
+
       @include respond(nex-9) {
         margin-top: 0rem;
       }
@@ -139,7 +142,7 @@
 
         @include respond(nex-4) {
           transform: translate(40%, 440%);
-        } 
+        }
 
         @include respond(s-phone) {
           transform: translate(32%, 386%);
@@ -148,6 +151,41 @@
 
       &--2 {
         margin-top: 6rem;
+      }
+
+      &--3 {
+        margin: -5rem auto 0 auto;
+        width: 50%;
+      }
+
+      &--4 {
+        margin: -2rem auto 1.5rem auto;
+        width: 70%;
+      }
+
+      &--5 {
+        margin: -2rem auto 1rem auto;
+        width: 50%;
+      }
+
+      &--6 {
+        margin: -4rem auto 1rem auto;
+        width: 46%;
+      }
+
+      &--7 {
+        margin: -4rem auto 0 auto;
+        width: 54%;
+      }
+
+      &--8 {
+        margin: -3rem auto .8rem auto;
+        width: 62%;
+      }
+
+      &--7 {
+        margin: -4rem auto 1rem auto;
+        width: 54%;
       }
     }
 
@@ -170,6 +208,14 @@
           transform: translate(-50%, 20%);
         }
 
+        &--f {
+          height: 17.8rem;
+          left: 50%;
+          position: absolute;
+          transform: translate(-50%, 6%);
+          top: 50%;
+        }
+
         &--1 {
           height: 13.8rem;
           transform: translate(-66%, 239%);
@@ -177,7 +223,7 @@
           @include respond(mic-l) {
             height: 11.8rem;
           }
-          
+
           @include respond(nex-9) {
             height: 9.8rem;
           }
@@ -323,7 +369,7 @@
           @include respond(mic-l) {
             height: 19.8rem;
           }
-          
+
           @include respond(nex-9) {
             height: 14.8rem;
           }
@@ -331,7 +377,7 @@
           @include respond(nex-4) {
             height: 11.8rem;
           }
-          
+
           @include respond(s-phone) {
             height: 9.8rem;
           }
@@ -342,7 +388,7 @@
 
           @include respond(nex-4) {
             height: 11.8rem;
-          } 
+          }
         }
 
         &--9 {

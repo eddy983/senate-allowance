@@ -93,7 +93,9 @@ body {
   font-family: 'Concert One', display;
   font-style: normal;
   font-weight: 400;
-  font-size: 16rem; }
+  font-size: 17rem; }
+  .main-no--w {
+    color: #fff; }
   @media (max-width: 40em) {
     .main-no {
       font-size: 14rem; } }
@@ -112,7 +114,9 @@ body {
 
 .main-text {
   font-weight: 400;
-  font-size: 2rem; }
+  font-size: 1.8rem; }
+  .main-text--w {
+    color: #fff; }
   @media (max-width: 40em) {
     .main-text {
       font-size: 1.8rem; } }
@@ -438,7 +442,7 @@ body {
         width: 100%; } }
 
 .header__box {
-  height: 50.9rem;
+  height: 55rem;
   width: 100%; }
   @media (max-width: 40em) {
     .header__box {
@@ -450,7 +454,8 @@ body {
     .header__box {
       height: 32rem; } }
   .header__box--1 {
-    background-color: rgba(161, 187, 172, 0.74);
+    background-color: rgba(161, 187, 172, 0.32);
+    height: 58rem;
     z-index: 1; }
     @media (max-width: 40em) {
       .header__box--1 {
@@ -462,13 +467,12 @@ body {
       .header__box--1 {
         height: 44.9rem; } }
     .header__box--1--c2 {
-      background-color: rgba(186, 213, 228, 0.74); }
+      background-color: #bad5e4; }
     .header__box--1--c3 {
-      background-color: rgba(120, 157, 195, 0.42); }
+      background-color: rgba(120, 157, 195, 0.72); }
     .header__box--1--c4 {
-      background-color: rgba(120, 157, 195, 0.5); }
-    .header__box--1--c4 {
-      background-color: rgba(113, 113, 113, 0.5); }
+      background-color: rgba(94, 203, 102, 0.41);
+      height: 55rem; }
     .header__box--1--c5 {
       background-color: rgba(111, 101, 113, 0.33); }
     .header__box--1--c6 {
@@ -480,32 +484,36 @@ body {
     .header__box--1--c9 {
       background-color: #bdc3c79c; }
     .header__box--1--c10 {
-      background-color: rgba(134, 118, 104, 0.6); }
+      background-color: rgba(134, 118, 104, 0.82); }
     .header__box--1--c11 {
-      background-color: #1e2021bf; }
+      background-color: #1e2021; }
     .header__box--1--c12 {
-      background-color: #DCA046; }
+      background-color: rgba(179, 244, 255, 0.37); }
     .header__box--1--c13 {
-      background-color: rgba(145, 220, 90, 0.15); }
+      background-color: #dca046; }
     .header__box--1--c14 {
-      background-color: rgba(94, 203, 102, 0.41); }
+      background-color: rgba(153, 153, 153, 0.32); }
     .header__box--1--c15 {
-      background-color: rgba(153, 153, 153, 0.12); }
+      background-color: rgba(255, 40, 19, 0.28); }
     .header__box--1--c16 {
-      background-color: rgba(197, 18, 0, 0.27); }
+      background-color: rgba(156, 150, 158, 0.35); }
     .header__box--1--c17 {
-      background-color: rgba(125, 117, 71, 0.69); }
+      background-color: #fff8f8; }
     .header__box--1--c18 {
-      background-color: rgba(235, 235, 235, 0.72); }
+      background-color: #ffdab6; }
     .header__box--1--c19 {
-      background-color: rgba(245, 165, 91, 0.43); }
+      background-color: #ffe995; }
+    .header__box--1--c20 {
+      background-color: #ecd5bc; }
   .header__box--2 {
     background-color: rgba(233, 169, 104, 0.219);
     z-index: 2;
     display: none; }
+  .header__box--3 {
+    height: 55rem; }
   .header__box__text {
     display: block;
-    margin-top: -3rem; }
+    margin-top: -6rem; }
     @media (max-width: 30em) {
       .header__box__text {
         margin-top: 0rem; } }
@@ -531,6 +539,27 @@ body {
           transform: translate(32%, 386%); } }
     .header__box__text--2 {
       margin-top: 6rem; }
+    .header__box__text--3 {
+      margin: -5rem auto 0 auto;
+      width: 50%; }
+    .header__box__text--4 {
+      margin: -2rem auto 1.5rem auto;
+      width: 70%; }
+    .header__box__text--5 {
+      margin: -2rem auto 1rem auto;
+      width: 50%; }
+    .header__box__text--6 {
+      margin: -4rem auto 1rem auto;
+      width: 46%; }
+    .header__box__text--7 {
+      margin: -4rem auto 0 auto;
+      width: 54%; }
+    .header__box__text--8 {
+      margin: -3rem auto .8rem auto;
+      width: 62%; }
+    .header__box__text--7 {
+      margin: -4rem auto 1rem auto;
+      width: 54%; }
   .header__box__icon {
     position: relative; }
     .header__box__icon__img {
@@ -545,6 +574,12 @@ body {
       @media (max-width: 26.5625em) {
         .header__box__icon__img {
           transform: translate(-50%, 20%); } }
+      .header__box__icon__img--f {
+        height: 17.8rem;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%, 6%);
+        top: 50%; }
       .header__box__icon__img--1 {
         height: 13.8rem;
         transform: translate(-66%, 239%); }
