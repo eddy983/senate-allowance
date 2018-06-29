@@ -2,7 +2,7 @@
   //margin-top: 4rem;
 
   &__box {
-    height: 55rem;
+    height: 50rem;
     width: 100%;
 
     @include respond(mic-l) {
@@ -46,7 +46,7 @@
 
       &--c4 {
         background-color: rgba(94, 203, 102, 0.41);
-        height: 55rem;
+        height: 58rem;
       }
 
       &--c5 {
@@ -104,7 +104,7 @@
     }
 
     &--2 {
-      background-color: $brown-color;
+      background-color: $black-color;
       z-index: 2;
       display: none;
     }
@@ -127,26 +127,14 @@
       }
 
       &--1 {
+        color: $color-white;
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(70%, 724%);
+        text-align: center;
+        transform: translate(-50%, 101%);
+        width: 90%;
 
-        @include respond(mic-l) {
-          transform: translate(48%, 614%);
-        }
-
-        @include respond(nex-9) {
-          transform: translate(51%, 500%);
-        }
-
-        @include respond(nex-4) {
-          transform: translate(40%, 440%);
-        }
-
-        @include respond(s-phone) {
-          transform: translate(32%, 386%);
-        }
       }
 
       &--2 {
@@ -161,16 +149,25 @@
       &--4 {
         margin: -2rem auto 1.5rem auto;
         width: 70%;
+
+        @include respond(4k-desk) {
+          margin: -2rem auto 2.5rem auto;
+        }
       }
 
       &--5 {
-        margin: -2rem auto 1rem auto;
+        margin: -2rem auto 0rem auto;
+        width: 50%;
+      }
+
+      &--5A {
+        margin: -2rem auto .7rem auto;
         width: 50%;
       }
 
       &--6 {
-        margin: -4rem auto 1rem auto;
-        width: 46%;
+        margin: -4rem auto 2.5rem auto;
+        width: 54%;
       }
 
       &--7 {
@@ -183,10 +180,25 @@
         width: 62%;
       }
 
-      &--7 {
+      &--9 {
         margin: -4rem auto 1rem auto;
-        width: 54%;
+        width: 60%;
       }
+
+      &--10 {
+        margin: -2rem auto .6rem auto;
+        width: 70%;
+
+        @include respond(4k-desk) {
+          margin: -2rem auto 2.5rem auto;
+        }
+      }
+
+      &--11 {
+        margin: -3rem auto .8rem auto;
+        width: 56%;
+      }
+
     }
 
     &__icon {
@@ -208,178 +220,19 @@
           transform: translate(-50%, 20%);
         }
 
+        &--1{
+          transform: translate(-50%, 0%);
+        }
+
         &--f {
           height: 17.8rem;
           left: 50%;
           position: absolute;
           transform: translate(-50%, 6%);
           top: 50%;
-        }
-
-        &--1 {
-          height: 13.8rem;
-          transform: translate(-66%, 239%);
-
-          @include respond(mic-l) {
-            height: 11.8rem;
-          }
-
-          @include respond(nex-9) {
-            height: 9.8rem;
-          }
-
-          @include respond(nex-4) {
-            height: 8.8rem;
-          }
-
-          @include respond(s-phone) {
-            height: 7.8rem;
-          }
-        }
-
-        &--2 {
-          height: 8.8rem;
-          transform: translate(-227%, 145%);
 
           @include respond(4k-desk) {
-            transform: translate(-283%, 145%);
-          }
-
-          @include respond(mic-l) {
-            height: 7.2rem;
-          }
-
-          @include respond(nex-9) {
-            height: 5.4rem;
-          }
-
-          @include respond(nex-4) {
-            height: 4.4rem;
-          }
-
-          @include respond(s-phone) {
-            height: 3.8rem;
-          }
-        }
-
-        &--3 {
-          height: 8.8rem;
-          transform: translate(283%, 139%);
-
-          @include respond(4k-desk) {
-            transform: translate(360%, 139%);
-          }
-
-          @include respond(mic-l) {
-            height: 7.2rem;
-          }
-
-          @include respond(nex-9) {
-            height: 5.4rem;
-          }
-
-          @include respond(nex-4) {
-            height: 4.4rem;
-          }
-
-          @include respond(s-phone) {
-            height: 3.8rem;
-          }
-        }
-
-        &--4 {
-          height: 8.8rem;
-          transform: translate(-303%, 432%);
-
-          @include respond(4k-desk) {
-            transform: translate(-436%, 432%);
-          }
-
-          @include respond(mic-l) {
-            height: 7.2rem;
-          }
-
-          @include respond(nex-9) {
-            height: 5.4rem;
-          }
-
-          @include respond(nex-4) {
-            height: 4.4rem;
-          }
-
-          @include respond(s-phone) {
-            height: 3.8rem;
-          }
-        }
-
-        &--5 {
-          height: 8.8rem;
-          transform: translate(184%, 296%);
-
-          @include respond(4k-desk) {
-            transform: translate(250%, 296%);
-          }
-
-          @include respond(mic-l) {
-            height: 7.2rem;
-          }
-
-          @include respond(nex-9) {
-            height: 5.4rem;
-          }
-
-          @include respond(nex-4) {
-            height: 4.4rem;
-          }
-
-          @include respond(s-phone) {
-            height: 3.8rem;
-          }
-        }
-
-        &--6 {
-          height: 7.8rem;
-          transform: translate(-171%, 342%);
-
-          @include respond(4k-desk) {
-            transform: translate(-213%, 342%);
-          }
-
-          @include respond(mic-l) {
-            height: 6.2rem;
-          }
-
-          @include respond(nex-9) {
-            height: 4.4rem;
-          }
-
-          @include respond(nex-4) {
-            height: 3.4rem;
-          }
-
-          @include respond(s-phone) {
-            height: 3.4rem;
-          }
-        }
-
-        &--7 {
-          height: 23.8rem;
-          transform: translate(-45%, 6%);
-
-          @include respond(mic-l) {
-            height: 19.8rem;
-          }
-
-          @include respond(nex-9) {
-            height: 14.8rem;
-          }
-
-          @include respond(nex-4) {
-            height: 11.8rem;
-          }
-
-          @include respond(s-phone) {
-            height: 9.8rem;
+            height: 21.8rem;
           }
         }
 
@@ -394,6 +247,7 @@
         &--9 {
           height: 17.8rem;
         }
+
       }
     }
   }
