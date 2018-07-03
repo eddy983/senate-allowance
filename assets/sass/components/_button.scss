@@ -14,7 +14,7 @@
     transform: translate(50%, 0%);
 
     @include respond(4k-desk) {
-      left: 56.7rem;
+      left: 61.7rem;
     }
 
     @include respond(laptop) {
@@ -26,43 +26,43 @@
     }
 
     @include respond(tab-land) {
-      left: 1rem;
+      left: 12rem;
     }
 
     @include respond(f-hxd) {
-      left: -10rem;
+     
     }
 
     @include respond(tab-port) {
-      left: -11rem;
+      left: 7rem;
     }
 
     @include respond(mic-l) {
-      left: -17rem;
+      left: -3rem;
     }
 
     @include respond(nex-9) {
-      left: -27rem;
+      left: -11rem;
     }
 
     @include respond(l-phone) {
-      left: -31rem;
+      left: -12rem;
     }
 
     @include respond(iphone-6-plus) {
-      left: -35rem;
+      left: -14rem;
     }
 
     @include respond(pix-2) {
-      left: -34rem;
+      
     }
 
     @include respond(m-phone) {
-      left: -35rem;
+      left: -16rem;
     }
 
     @include respond(s-phone) {
-      left: -39rem;
+      left: -20rem;
     }
 
     &:hover {

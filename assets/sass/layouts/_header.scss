@@ -135,6 +135,25 @@
         transform: translate(-50%, 101%);
         width: 90%;
 
+        @include respond(mic-l) {
+          transform: translate(-50%, 32%);
+        }
+
+        @include respond(nex-9) {
+          transform: translate(-50%, 88%);
+          font-size: 2rem;
+        }
+
+        @include respond(l-phone) {
+          transform: translate(-50%, 122%);
+          
+        }
+
+        @include respond(m-phone) {
+          transform: translate(-50%, 50%);
+          
+        }
+
       }
 
       &--2 {
@@ -153,31 +172,71 @@
         @include respond(4k-desk) {
           margin: -2rem auto 2.5rem auto;
         }
+
+        @include respond(tab-land) {
+          margin: -2rem auto 1rem auto; 
+        }
       }
 
       &--5 {
         margin: -2rem auto 0rem auto;
         width: 50%;
+
+        @include respond(laptop) {
+          margin: -3rem auto 3rem auto;
+        }
+
+        @include respond(laptop) {
+          margin: -3rem auto 3rem auto;
+        }
       }
 
       &--5A {
         margin: -2rem auto .7rem auto;
         width: 50%;
+
+        @include respond(4k-desk) {
+          margin: -2rem auto 2rem auto;
+        }
       }
 
       &--6 {
         margin: -4rem auto 2.5rem auto;
         width: 54%;
+
+        @include respond(4k-desk) {
+          margin: -4rem auto 4.5rem auto;
+        }
+
+        @include respond(laptop) {
+          margin: -4rem auto 3.2rem auto;
+        }
       }
 
       &--7 {
         margin: -4rem auto 0 auto;
         width: 54%;
+        
+        @include respond(4k-desk) {
+          margin: -4rem auto 4rem auto;
+        }
+
+        @include respond(laptop) {
+          margin: -4rem auto 2rem auto;
+        }
       }
 
       &--8 {
         margin: -3rem auto .8rem auto;
         width: 62%;
+
+        @include respond(4k-desk) {
+          margin: -3rem auto 3.8rem auto;
+        }
+
+        @include respond(laptop) {
+          margin: -3rem auto 3rem auto;
+        }
       }
 
       &--9 {
@@ -192,17 +251,28 @@
         @include respond(4k-desk) {
           margin: -2rem auto 2.5rem auto;
         }
+
+        @include respond(laptop) {
+          margin: -2rem auto 2rem auto;
+        }
       }
 
       &--11 {
         margin: -3rem auto .8rem auto;
         width: 56%;
+
+        @include respond(4k-desk) {
+          margin: -3rem auto 4.8rem auto;
+        }
+
+        @include respond(laptop) {
+          margin: -3rem auto 2.8rem auto;
+        }
       }
 
     }
 
     &__icon {
-      //margin-top: 3rem;
       position: relative;
 
       &__img {
@@ -213,8 +283,10 @@
         top: 50%;
 
         @include respond(mic-l) {
+          height: 14.8rem;
           transform: translate(-50%, 14%);
         }
+        
 
         @include respond(l-phone) {
           transform: translate(-50%, 20%);
@@ -246,6 +318,10 @@
 
         &--9 {
           height: 17.8rem;
+
+          @include respond(nex-9) {
+            height: 14.8rem;
+          }
         }
 
       }

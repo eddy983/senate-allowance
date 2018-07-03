@@ -235,7 +235,7 @@ body {
   transform: translate(50%, 0%); }
   @media (min-width: 160em) {
     .btn__game {
-      left: 56.7rem; } }
+      left: 61.7rem; } }
   @media (max-width: 90em) {
     .btn__game {
       left: 12rem; } }
@@ -244,34 +244,28 @@ body {
       left: 7rem; } }
   @media (max-width: 64em) {
     .btn__game {
-      left: 1rem; } }
-  @media (max-width: 50em) {
-    .btn__game {
-      left: -10rem; } }
+      left: 12rem; } }
   @media (max-width: 48em) {
     .btn__game {
-      left: -11rem; } }
+      left: 7rem; } }
   @media (max-width: 40em) {
     .btn__game {
-      left: -17rem; } }
+      left: -3rem; } }
   @media (max-width: 30em) {
     .btn__game {
-      left: -27rem; } }
+      left: -11rem; } }
   @media (max-width: 26.5625em) {
     .btn__game {
-      left: -31rem; } }
+      left: -12rem; } }
   @media (max-width: 25.875em) {
     .btn__game {
-      left: -35rem; } }
-  @media (max-width: 25.6875em) {
-    .btn__game {
-      left: -34rem; } }
+      left: -14rem; } }
   @media (max-width: 23.4375em) {
     .btn__game {
-      left: -35rem; } }
+      left: -16rem; } }
   @media (max-width: 20em) {
     .btn__game {
-      left: -39rem; } }
+      left: -20rem; } }
   .btn__game:hover {
     background-color: rgba(130, 130, 130, 0.3);
     cursor: pointer; }
@@ -528,6 +522,19 @@ body {
       text-align: center;
       transform: translate(-50%, 101%);
       width: 90%; }
+      @media (max-width: 40em) {
+        .header__box__text--1 {
+          transform: translate(-50%, 32%); } }
+      @media (max-width: 30em) {
+        .header__box__text--1 {
+          transform: translate(-50%, 88%);
+          font-size: 2rem; } }
+      @media (max-width: 26.5625em) {
+        .header__box__text--1 {
+          transform: translate(-50%, 122%); } }
+      @media (max-width: 23.4375em) {
+        .header__box__text--1 {
+          transform: translate(-50%, 50%); } }
     .header__box__text--2 {
       margin-top: 6rem; }
     .header__box__text--3 {
@@ -539,21 +546,51 @@ body {
       @media (min-width: 160em) {
         .header__box__text--4 {
           margin: -2rem auto 2.5rem auto; } }
+      @media (max-width: 64em) {
+        .header__box__text--4 {
+          margin: -2rem auto 1rem auto; } }
     .header__box__text--5 {
       margin: -2rem auto 0rem auto;
       width: 50%; }
+      @media (max-width: 90em) {
+        .header__box__text--5 {
+          margin: -3rem auto 3rem auto; } }
+      @media (max-width: 90em) {
+        .header__box__text--5 {
+          margin: -3rem auto 3rem auto; } }
     .header__box__text--5A {
       margin: -2rem auto .7rem auto;
       width: 50%; }
+      @media (min-width: 160em) {
+        .header__box__text--5A {
+          margin: -2rem auto 2rem auto; } }
     .header__box__text--6 {
       margin: -4rem auto 2.5rem auto;
       width: 54%; }
+      @media (min-width: 160em) {
+        .header__box__text--6 {
+          margin: -4rem auto 4.5rem auto; } }
+      @media (max-width: 90em) {
+        .header__box__text--6 {
+          margin: -4rem auto 3.2rem auto; } }
     .header__box__text--7 {
       margin: -4rem auto 0 auto;
       width: 54%; }
+      @media (min-width: 160em) {
+        .header__box__text--7 {
+          margin: -4rem auto 4rem auto; } }
+      @media (max-width: 90em) {
+        .header__box__text--7 {
+          margin: -4rem auto 2rem auto; } }
     .header__box__text--8 {
       margin: -3rem auto .8rem auto;
       width: 62%; }
+      @media (min-width: 160em) {
+        .header__box__text--8 {
+          margin: -3rem auto 3.8rem auto; } }
+      @media (max-width: 90em) {
+        .header__box__text--8 {
+          margin: -3rem auto 3rem auto; } }
     .header__box__text--9 {
       margin: -4rem auto 1rem auto;
       width: 60%; }
@@ -563,9 +600,18 @@ body {
       @media (min-width: 160em) {
         .header__box__text--10 {
           margin: -2rem auto 2.5rem auto; } }
+      @media (max-width: 90em) {
+        .header__box__text--10 {
+          margin: -2rem auto 2rem auto; } }
     .header__box__text--11 {
       margin: -3rem auto .8rem auto;
       width: 56%; }
+      @media (min-width: 160em) {
+        .header__box__text--11 {
+          margin: -3rem auto 4.8rem auto; } }
+      @media (max-width: 90em) {
+        .header__box__text--11 {
+          margin: -3rem auto 2.8rem auto; } }
   .header__box__icon {
     position: relative; }
     .header__box__icon__img {
@@ -576,6 +622,7 @@ body {
       top: 50%; }
       @media (max-width: 40em) {
         .header__box__icon__img {
+          height: 14.8rem;
           transform: translate(-50%, 14%); } }
       @media (max-width: 26.5625em) {
         .header__box__icon__img {
@@ -598,6 +645,9 @@ body {
             height: 11.8rem; } }
       .header__box__icon__img--9 {
         height: 17.8rem; }
+        @media (max-width: 30em) {
+          .header__box__icon__img--9 {
+            height: 14.8rem; } }
 
 .game {
   margin-top: 6.2rem; }

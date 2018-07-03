@@ -87,11 +87,11 @@ ORDER: Base + typography > general layout + grid > page layout > components
   @if $breakpoint == tab-land {
     @media (max-width: 64em) { @content }; // 1024px in em
   }
-  @if $breakpoint == s-laptop {
+  @if $breakpoint == s-laptop { 
     @media (max-width: 80em) { @content }; // 1280px in em
   }
   @if $breakpoint == tab-pro-land {
-    @media (max-width: 85.375em) { @content }; // 1366px in em
+    @media (max-width: 85.375em) { @content }; // 1366px in em 
   }
   @if $breakpoint == laptop {
     @media (max-width: 90em) { @content }; // 1440px in em

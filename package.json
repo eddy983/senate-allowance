@@ -1,5 +1,5 @@
 {
-  "name": "sass",
+  "name": "senate",
   "version": "1.0.0",
   "description": "Senators Allowance",
   "main": "index.html",
@@ -10,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.9.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddy983/senate-allowance.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddy983/senate-allowance/issues"
+  },
+  "homepage": "https://github.com/eddy983/senate-allowance#readme"
 }
