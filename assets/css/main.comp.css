@@ -453,20 +453,14 @@ body {
     z-index: 1; }
     @media (max-width: 40em) {
       .header__box--1 {
-        height: 50.9rem; } }
-    @media (max-width: 30em) {
-      .header__box--1 {
-        height: 47.9rem; } }
-    @media (max-width: 20em) {
-      .header__box--1 {
-        height: 44.9rem; } }
+        height: 58.9rem; } }
     .header__box--1--c2 {
       background-color: #bad5e4; }
     .header__box--1--c3 {
       background-color: rgba(120, 157, 195, 0.72); }
     .header__box--1--c4 {
       background-color: rgba(94, 203, 102, 0.41);
-      height: 58rem; }
+      height: 58.9rem; }
     .header__box--1--c5 {
       background-color: rgba(111, 101, 113, 0.33); }
     .header__box--1--c6 {
@@ -549,21 +543,27 @@ body {
       @media (max-width: 64em) {
         .header__box__text--4 {
           margin: -2rem auto 1rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--4 {
+          margin: 2rem auto 3rem auto; } }
     .header__box__text--5 {
       margin: -2rem auto 0rem auto;
       width: 50%; }
       @media (max-width: 90em) {
         .header__box__text--5 {
           margin: -3rem auto 3rem auto; } }
-      @media (max-width: 90em) {
+      @media (max-width: 40em) {
         .header__box__text--5 {
-          margin: -3rem auto 3rem auto; } }
+          margin: 0rem auto 3rem auto; } }
     .header__box__text--5A {
       margin: -2rem auto .7rem auto;
       width: 50%; }
       @media (min-width: 160em) {
         .header__box__text--5A {
           margin: -2rem auto 2rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--5A {
+          margin: 2rem auto 4rem auto; } }
     .header__box__text--6 {
       margin: -4rem auto 2.5rem auto;
       width: 54%; }
@@ -573,6 +573,10 @@ body {
       @media (max-width: 90em) {
         .header__box__text--6 {
           margin: -4rem auto 3.2rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--6 {
+          margin: 3rem auto 4rem auto;
+          width: 80%; } }
     .header__box__text--7 {
       margin: -4rem auto 0 auto;
       width: 54%; }
@@ -582,6 +586,10 @@ body {
       @media (max-width: 90em) {
         .header__box__text--7 {
           margin: -4rem auto 2rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--7 {
+          margin: 2rem auto 2rem auto;
+          width: 80%; } }
     .header__box__text--8 {
       margin: -3rem auto .8rem auto;
       width: 62%; }
@@ -591,6 +599,10 @@ body {
       @media (max-width: 90em) {
         .header__box__text--8 {
           margin: -3rem auto 3rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--8 {
+          margin: 1rem auto 2rem auto;
+          width: 80%; } }
     .header__box__text--9 {
       margin: -4rem auto 1rem auto;
       width: 60%; }
@@ -603,6 +615,10 @@ body {
       @media (max-width: 90em) {
         .header__box__text--10 {
           margin: -2rem auto 2rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--10 {
+          margin: 0rem auto 4rem auto;
+          width: 80%; } }
     .header__box__text--11 {
       margin: -3rem auto .8rem auto;
       width: 56%; }
@@ -612,6 +628,10 @@ body {
       @media (max-width: 90em) {
         .header__box__text--11 {
           margin: -3rem auto 2.8rem auto; } }
+      @media (max-width: 40em) {
+        .header__box__text--11 {
+          margin: 4rem auto 4rem auto;
+          width: 80%; } }
   .header__box__icon {
     position: relative; }
     .header__box__icon__img {

@@ -25,16 +25,9 @@
 
 
       @include respond(mic-l) {
-        height: 50.9rem;
+        height: 58.9rem;
       }
 
-      @include respond(nex-9) {
-        height: 47.9rem;
-      }
-
-      @include respond(s-phone) {
-        height: 44.9rem;
-      }
 
       &--c2 {
         background-color: rgba(186, 213, 228, 1);
@@ -46,7 +39,7 @@
 
       &--c4 {
         background-color: rgba(94, 203, 102, 0.41);
-        height: 58rem;
+        height: 58.9rem;
       }
 
       &--c5 {
@@ -176,6 +169,10 @@
         @include respond(tab-land) {
           margin: -2rem auto 1rem auto; 
         }
+
+        @include respond(mic-l) {
+          margin: 2rem auto 3rem auto;
+        }
       }
 
       &--5 {
@@ -186,8 +183,8 @@
           margin: -3rem auto 3rem auto;
         }
 
-        @include respond(laptop) {
-          margin: -3rem auto 3rem auto;
+        @include respond(mic-l) {
+          margin: 0rem auto 3rem auto;
         }
       }
 
@@ -197,6 +194,10 @@
 
         @include respond(4k-desk) {
           margin: -2rem auto 2rem auto;
+        }
+
+        @include respond(mic-l) {
+          margin: 2rem auto 4rem auto;
         }
       }
 
@@ -211,6 +212,11 @@
         @include respond(laptop) {
           margin: -4rem auto 3.2rem auto;
         }
+
+        @include respond(mic-l) {
+          margin: 3rem auto 4rem auto;
+          width: 80%;
+        }
       }
 
       &--7 {
@@ -224,6 +230,11 @@
         @include respond(laptop) {
           margin: -4rem auto 2rem auto;
         }
+
+        @include respond(mic-l) {
+          margin: 2rem auto 2rem auto;
+          width: 80%;
+        }
       }
 
       &--8 {
@@ -236,6 +247,11 @@
 
         @include respond(laptop) {
           margin: -3rem auto 3rem auto;
+        }
+
+        @include respond(mic-l) {
+          margin: 1rem auto 2rem auto;
+          width: 80%;
         }
       }
 
@@ -255,6 +271,11 @@
         @include respond(laptop) {
           margin: -2rem auto 2rem auto;
         }
+
+        @include respond(mic-l) {
+          margin: 0rem auto 4rem auto;
+          width: 80%;
+        }
       }
 
       &--11 {
@@ -267,6 +288,11 @@
 
         @include respond(laptop) {
           margin: -3rem auto 2.8rem auto;
+        }
+
+        @include respond(mic-l) {
+          margin: 4rem auto 4rem auto;
+          width: 80%;
         }
       }
 
