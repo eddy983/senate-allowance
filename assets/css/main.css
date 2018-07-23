@@ -698,6 +698,10 @@ body {
     .game__title__text {
       display: inline-block;
       margin-left: 0.5rem; }
+      @media (max-width: 26.5625em) {
+        .game__title__text-caption {
+          display: block;
+          margin-top: 1rem; } }
   .game__display {
     position: relative; }
     .game__display__card {
